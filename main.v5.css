@@ -124,7 +124,7 @@ img {
     width: 100%;
 }
 .navbar-brand {
-    max-width: 110px;
+    max-width: 70px;
 }
 @media (max-width: 767px)
 {
@@ -163,6 +163,10 @@ img {
     display: flex;
 }
 
+.navbar-collapse {
+    max-height: 70vh;
+    overflow: auto;
+}
 .meni .card .card-img-top{
     width: 373px;
     max-width: 100%;

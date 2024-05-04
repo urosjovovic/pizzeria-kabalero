@@ -31,3 +31,33 @@ function imageSrcSetMenuItem($itemid, $item_images_path_array) {
         echo 'Caught exception: ',  $e->getMessage(), "\n";
     }
 }
+
+function productCardPrintCol6ColMd3($itemid, $item_images_path_array, $item_name, $item_size, $item_price, $item_description) {
+    try {
+        if (array_key_exists($itemid, $item_images_path_array)) {
+            return '
+            <div class="col-6 col-md-3">
+            <div class="card">'.
+            (($item_images_path_array[$itemid] != null) ? '<img class="card-img-top" '.imageSrcSetMenuItem($itemid, $item_images_path_array).' alt="'.$item_name.'">' : '') .'
+            <div class="card-body">
+            '.(($item_name != null) ? '<h3 class="card-title h4">'.$item_name.'</h3>' : '').'
+            '.(($item_size != null) ? '<p class="card-text">'.$item_size.'</p>' : '').'
+            '.(($item_price != null) ? '<p class="card-text">'.$item_price.'</p>' : '').'
+            '.(($item_description != null) ? '<div class="accordion border-0">
+            <div class="accordion-item border-0">
+              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#'.$itemid.'-sastav">
+                <b>Sastav</b>
+              </button>
+              <div id="'.$itemid.'-sastav" class="accordion-collapse collapse border-0">'.$item_description.' </div>
+            </div>
+            </div>' : '').'
+          </div>
+            </div>
+        </div>';
+        } else {
+            // abort();
+        }
+    } catch (Exception $e) {
+        echo 'Caught exception: ',  $e->getMessage(), "\n";
+    }
+}

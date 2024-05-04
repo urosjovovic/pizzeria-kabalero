@@ -4,13 +4,13 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
      '/' => 'controllers/index.controller.php',
-     '/politika-privatnosti' => 'controllers/politika-privatnosti.controller.php',
-     '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.controller.php',
-     '/poruci-online' => 'controllers/online-order.controller.php',
+     '/privacy-policy' => 'controllers/politika-privatnosti.controller.php',
+     '/terms-and-conditions' => 'controllers/uvjeti-koristenja.controller.php',
+    //  '/poruci-online' => 'controllers/online-order.controller.php',
      '/robots.txt'=> 'robots.txt',
-     '/sitemap.xml'=> 'sitemap.xml',
-     '/obavestenje-o-privatnosti-online-porudzbine' => 'controllers/obavestenje-o-privatnosti-online-porudzbine.controller.php',
-     '/uslovi-koriscenja-online-porudzbine' => 'controllers/uslovi-koriscenja-online-porudzbine.controller.php'
+     '/sitemap.xml'=> 'sitemap.xml'
+    //  '/obavestenje-o-privatnosti-online-porudzbine' => 'controllers/obavestenje-o-privatnosti-online-porudzbine.controller.php',
+    //  '/uvjeti-koristenja-online-porudzbine' => 'controllers/uvjeti-koristenja-online-porudzbine.controller.php'
 ];
 
 function routeToController($uri, $routes) {
