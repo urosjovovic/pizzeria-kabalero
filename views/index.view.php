@@ -28,1099 +28,222 @@ sizes="100vw"
   <!-- Pice -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice">
     <div class="my-3">
-      <h2 class="h1">Pice</h2>
+      <h2 class="h1">COLD APPETIZERS</h2>
     </div>
-    <?php echo productCardPrintCol6ColMd3("pice-margarita", $image_path_array, "", "24/32/42cm", "590/910/1210 din.", ""); ?>
-    <?php echo productCardPrintCol6ColMd3("pice-vesuvio", $image_path_array, "Vesuvio", "24/32/42cm", "610/960/1260 din.", "Sastav test pelat, kačkavalj, šunka, origano, masline"); ?>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img <?php
-echo imageSrcSetMenuItem("pice-vesuvio", $image_path_array); // replace this with your actual function
-          ?>    class="card-img-top" alt="Pica Vesuvio">
-        <div class="card-body">
-          <h3 class="card-title h4">Vesuvio</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">610/960/1260 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-vesuvio-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-vesuvio-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, šunka, origano, masline </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img 
-        <?php
-echo imageSrcSetMenuItem("pice-fungi", $image_path_array); // replace this with your actual function
-?>   
-        class="card-img-top" alt="Pica Funghi">
-        <div class="card-body">
-          <h3 class="card-title h4">Funghi</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">610/960/1260 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-funghi-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-funghi-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, pečurke, origano, masline </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy"         <?php
-echo imageSrcSetMenuItem("pice-capricciosa", $image_path_array); // replace this with your actual function
-?>   class="card-img-top" alt="Pica Capricciosa">
-        <div class="card-body">
-          <h3 class="card-title h4">Capricciosa</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">640/1000/1290 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-capricciosa-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-capricciosa-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, pečurke, šunka, origano, masline </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-vegetarijana", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Pica Vegetarijana">
-        <div class="card-body">
-          <h3 class="card-title h4">Vegetarijana</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">650/1030/1350 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-vegetarijana-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-vegetarijana-sastav" class="accordion-collapse collapse border-0"> pelat, biljni kačkavalj, pečurke, paprika, luk, masline, rukola, bosiljak </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-peperoni", $image_path_array); // replace this with your actual function
-          ?> class="card-img-top" alt="Pica Peperoni">
-        <div class="card-body">
-          <h3 class="card-title h4">Peperoni</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">680/1080/1390 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-peperoni-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-peperoni-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, pečurke, kulen, slanina, origano </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-tuna", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Pica Tuna">
-        <div class="card-body">
-          <h3 class="card-title h4">Tuna</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">690/1100/1450 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-tuna-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-tuna-sastav" class="accordion-collapse collapse border-0"> pelat, biljni kačkavalj, tuna, kukuruz šećerac, pečurke, rukola, origano, masline </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-favola", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pica Favola">
-        <div class="card-body">
-          <h3 class="card-title h4">Favola Specijal</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text"> 810/1360/1850 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-favola-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-favola-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, pečurke, šunka, suvi vrat, kunel, slanina, jaje, masline, origano, pavlaka </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-srbijana", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pica Srbijana">
-        <div class="card-body">
-          <h3 class="card-title h4">Srbijana</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">830/1390/1890 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-srbijana-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-srbijana-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, šunka, pršuta, kulen, slanina, jaje, kajmak, origano </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-prsuta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pica Prsuta">
-        <div class="card-body">
-          <h3 class="card-title h4">Pršuta</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">800/1250/1650 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-prsuta-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-prsuta-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, pršuta, crne masline, origano, parmezan, rukola </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy"  <?php
-echo imageSrcSetMenuItem("pice-pikanta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pica Pikante">
-        <div class="card-body">
-          <h3 class="card-title h4">Pikante</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">700/1110/1450 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-pikanta-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-pikanta-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, kulen, feferoni, crne masline, origano </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy"<?php
-echo imageSrcSetMenuItem("pice-quattro-formaggi", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt=" Pica Quattro Formaggi">
-        <div class="card-body">
-          <h3 class="card-title h4">Quattro Formaggi</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">680/1090/1440 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-quattro-formaggi-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-quattro-formaggi-sastav" class="accordion-collapse collapse border-0"> Pelat, kačkavalj, parmezan, dimljeni kačkavalj, plavi sir, masline, origano </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pice-bbq-pizza", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pica Bbq">
-        <div class="card-body">
-          <h3 class="card-title h4">BBQ</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">680/1090/1440 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-bbq-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-bbq-sastav" class="accordion-collapse collapse border-0"> BBQ sos, kačkavalj, dimljena piletina, crveni luk, origano, masline </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Tortilje -->
+    <?php echo productCardPrintCol6ColMd3("cold-appetizers-dalmatian-smoked-ham", $image_path_array, "Dalmatian Smoked Ham", "", "15,00 €", "");
+    echo productCardPrintCol6ColMd3("cold-appetizers-cheese-in-olive", $image_path_array, "Cheese in Olive", "Vegetarian", "13,00 €", "");
+    echo productCardPrintCol6ColMd3("cold-appetizers-cold-platter-kabalero", $image_path_array, "Cold Platter Kabalero", "", "14,00 €", "ham, cheese, anchovies, olives");
+    echo productCardPrintCol6ColMd3("cold-appetizers-anchovies-carpaccio", $image_path_array, "Anchovies Carpaccio", "", "13,00 €", "");
+ 
+    ?>
+  </div> 
+ 
+  <!-- SALADS -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
-      <h2 class="h1">Tortilje</h2>
+      <h2 class="h1">SALADS</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("tortilje-tortilja-sunka", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Tortilja Sunka">
-        <div class="card-body">
-          <h3 class="card-title h4">Tortilja Šunka</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">550 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-sunka-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="tortilje-sunka-sastav" class="accordion-collapse collapse border-0"> dresing, kačkavalj, šunka, paradajz, zelena salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("tortilje-tortilja-pecenica", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Tortilja Pecenica">
-        <div class="card-body">
-          <h3 class="card-title h4">Tortilja Pečenica</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">570 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-pecenica-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="tortilje-pecenica-sastav" class="accordion-collapse collapse border-0"> dresing, kačkavalj, pečenica, paradajz, zelena salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("tortilje-tortilja-kulen", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Tortilja Kulen">
-        <div class="card-body">
-          <h3 class="card-title h4">Tortilja Kulen</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">590 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-kulen-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="tortilje-kulen-sastav" class="accordion-collapse collapse border-0"> dresing, kačkavalj, kulen, paradajz, zelena salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("tortilje-tortilja-prsuta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Tortilja Prsuta">
-        <div class="card-body">
-          <h3 class="card-title h4">Tortilja Pršuta</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">650 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-prsuta-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="tortilje-prsuta-sastav" class="accordion-collapse collapse border-0"> dresing, kačkavalj, pršuta, paradajz, zelena salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("tortilje-dimljena-piletina-tortilja", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Tortilja Dimljena Piletina">
-        <div class="card-body">
-          <h3 class="card-title h4">Tortilja Dimljena Piletina</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">5900 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-dimljena-piletina-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="tortilje-dimljena-piletina-sastav" class="accordion-collapse collapse border-0"> dresing, kačkavalj, dimljena piletina, paradajz, zelena salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("tortilje-pileca-tortilja", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Tortilja Hrskava Piletina">
-        <div class="card-body">
-          <h3 class="card-title h4">Hrskava Piletina</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">630 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-dimljena-pilertina-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="tortilje-dimljena-pilertina-sastav" class="accordion-collapse collapse border-0"> dresing, kačkavalj, hrskava piletina, paradajz, zelena salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php
+    echo productCardPrintCol6ColMd3("salads-seasonal-salad", $image_path_array, "Seasonal Salad", "Vegan, Vegetarian", "5,00 €", "");
+    echo productCardPrintCol6ColMd3("salads-salad-konavle", $image_path_array, "Salad Konavle", "", "11,50 €", "smoked ham. cheese. tomatoes, peppers,cucumbers, onions, olives");
+    echo productCardPrintCol6ColMd3("salads-tuna-salad", $image_path_array, "Tuna Salad", "", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("salads-chicken-salad", $image_path_array, "Chicken Salad", "", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("salads-greek-salad-with-olives", $image_path_array, "Greek Salad with Olives", "", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("salads-octopus-salad", $image_path_array, "Octopus Salad", "", "13,50 €", "");
+    ?>
   </div>
-  <!-- Obroci i piroske -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="piroske-i-obroci">
+  <!-- SOUPS -->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
-      <h2 class="h1">Piroške i Obroci</h2>
+      <h2 class="h1">SOUPS</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("piroske-piroska-italijanska", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Piroska Italijanska">
-        <div class="card-body">
-          <h3 class="card-title h4">Italijanska Piroška</h3>
-          <p class="card-text">400g</p>
-          <p class="card-text">710 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#piroska-italijanska-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="piroska-italijanska-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, šunka, pečurke, pavlaka, origano </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("piroske-piroska-zlatiborska", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Piroska Zlatiborska">
-        <div class="card-body">
-          <h3 class="card-title h4">Zlatiborska Piroška</h3>
-          <p class="card-text">500g</p>
-          <p class="card-text">830 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#piroska-zlatiborska-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="piroska-zlatiborska-sastav" class="accordion-collapse collapse border-0"> šunka, suvi vrat, slanina, pršuta, kajmak, jaje </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("obroci-pileci-stapici-obrok", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pohovani Stapici">
-        <div class="card-body">
-          <h3 class="card-title h4">Pohovani Štapići</h3>
-          <p class="card-text">550g</p>
-          <p class="card-text">780 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#obrok-stapici-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="obrok-stapici-sastav" class="accordion-collapse collapse border-0"> 250g - pohovani pileći štapići, <br>150g - pomfrit, <br>150g - zelena salata, paradajz, tartar sos </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("obroci-pohovani-kackavalj-obrok", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pohovani Kackavalj">
-        <div class="card-body">
-          <h3 class="card-title h4">Pohovani Kačkavalj</h3>
-          <p class="card-text">550g</p>
-          <p class="card-text">720 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#obrok-kackavalj-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="obrok-kackavalj-sastav" class="accordion-collapse collapse border-0"> 250g - pohovanog kačkavalja <br>150g - pomfrit <br>150g - zelena salata, paradajz, pavlaka </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php
+     echo productCardPrintCol6ColMd3("soups-beef-soup", $image_path_array, "Beef Soup", "", "5,00 €", "");
+     echo productCardPrintCol6ColMd3("soups-tomato-cream-soup", $image_path_array, "Tomato Cream Soup", "Vegetarian", "5,00 €", "");
+     echo productCardPrintCol6ColMd3("soups-mushroom-soup", $image_path_array, "Mushroom Soup", "Vegetarian", "5,00 €", "");
+     echo productCardPrintCol6ColMd3("soups-fish-soup", $image_path_array, "Fish Soup", "", "6,00 €", "");
+    ?>
+   
   </div>
-  <!--Sendvici  -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="sendvici">
+  <!--HOT SIDE DISHES  -->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
-      <h2 class="h1">Sendviči</h2>
+      <h2 class="h1">HOT SIDE DISHES</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("sendvici-sendvic-sunka", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Sendvic Sunka">
-        <div class="card-body">
-          <h3 class="card-title h4">Šunka</h3>
-          <p class="card-text">330g</p>
-          <p class="card-text">410 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-sunka-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="sendvic-sunka-sastav" class="accordion-collapse collapse border-0"> somun, šunka, pavlaka, kačkavalj, salata, paradajz </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("sendvici-sendvic-svinjski-vrat", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Sendvic Suvi Vrat">
-        <div class="card-body">
-          <h3 class="card-title h4">Suvi Vrat</h3>
-          <p class="card-text">330g</p>
-          <p class="card-text">430 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-suvi-vrat-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="sendvic-suvi-vrat-sastav" class="accordion-collapse collapse border-0"> somun, suvi vrat, pavlaka, kačkavalj, salata, paradajz </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("sendvici-sendvic-pecenica", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Sendvic Pecenica">
-        <div class="card-body">
-          <h3 class="card-title h4">Pečenica</h3>
-          <p class="card-text">330g</p>
-          <p class="card-text">430 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-pecenica-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="sendvic-pecenica-sastav" class="accordion-collapse collapse border-0"> somun, pečenica, pavlaka, kačkavalj, salata, paradajz </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("sendvici-sendvic-tuna", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Sendvic Tuna">
-        <div class="card-body">
-          <h3 class="card-title h4">Tuna</h3>
-          <p class="card-text">330g</p>
-          <p class="card-text">470 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-tuna-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="sendvic-tuna-sastav" class="accordion-collapse collapse border-0"> somun, kečap, tuna, biljni kačkavalj, kukuruz šećerac, salata </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("sendvici-sendvic-kulen", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Sendvic Kulen">
-        <div class="card-body">
-          <h3 class="card-title h4">Kulen</h3>
-          <p class="card-text">330g</p>
-          <p class="card-text">470 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-kulen-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="sendvic-kulen-sastav" class="accordion-collapse collapse border-0"> somun, kulen, pavlaka, kačkavalj, salata, feferone </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("sendvici-sendvic-prsuta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Sendvic Prusuta">
-        <div class="card-body">
-          <h3 class="card-title h4">Pršuta</h3>
-          <p class="card-text">330g</p>
-          <p class="card-text">510 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-prsuta-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="sendvic-prsuta-sastav" class="accordion-collapse collapse border-0"> somun, kajmak, pršuta, kačkavalj, rukola </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("hot-side-dishes-breaded-cheese", $image_path_array, "Breaded Cheese", "", "11,00 €", "");
+    echo productCardPrintCol6ColMd3("hot-side-dishes-assortment-of-omelettes", $image_path_array, "Assortment of Omelettes", "", "6,50 €", "cheese, ham, mushrooms");
+    echo productCardPrintCol6ColMd3("hot-side-dishes-mixed-omelette", $image_path_array, "Mixed Omelette", "", "7,50 €", "");
+    echo productCardPrintCol6ColMd3("hot-side-dishes-bacon-and-eggs", $image_path_array, "Bacon and Eggs", "", "7,50 €", "");
+    echo productCardPrintCol6ColMd3("hot-side-dishes-warm-sandwich-of-your-choice", $image_path_array, "Warm Sandwich of Your Choice", "", "7,00 €", "dalmatian ham, chicken, tunna;cheese, mayonnaise, lettuce, tomatoes");
+    echo productCardPrintCol6ColMd3("hot-side-dishes-warm-sandwich", $image_path_array, "Warm Sandwich", "", "7,00 €", "mixed meat");
+    echo productCardPrintCol6ColMd3("hot-side-dishes-toast", $image_path_array, "Toast", "", "6,00 €", "");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-chicken-steak", $image_path_array, "Chicken Steak", "", "13,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-pljeskavica", $image_path_array, "Pljeskavica", "", "13,00 €", "minced meat *Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-evap-i-i-skewers-of-your-choosing", $image_path_array, "Ćevapčići Skewers of Your Choosing", "", "13,00 €", "pork or chicken *Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-sausages", $image_path_array, "Sausages", "", "13,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-hamburger", $image_path_array, "Hamburger", "", "7,00 €", "ajvar, mayonnaise, lettuce, tomatoes *Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-cheeseburger", $image_path_array, "Cheeseburger", "", "7,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-vege-burger", $image_path_array, "Vege Burger", "Vegan, Vegetarian", "9,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-vege-burger", $image_path_array, "Vege Burger", "Vegan, Vegetarian", "9,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    ?>
+   
   </div>
-  <!-- Palacinke slane -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="palacinke-slane">
+  <!-- PASTA DISHES -->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
-      <h2 class="h1">Palačinke Slane</h2>
+      <h2 class="h1">PASTA DISHES</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slane-palacinke-palacinka-sunka", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slana Palacinka Sunka">
-        <div class="card-body">
-          <h3 class="card-title h4">Slana Palačinka Šunka</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">370 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane-palacinke/palacinka-sunka-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slane-palacinke/palacinka-sunka-sastav" class="accordion-collapse collapse border-0"> šunka, pavlaka, kačkavalj </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slane-palacinke-palacinka-kulen", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slana Palacinka Kulen">
-        <div class="card-body">
-          <h3 class="card-title h4">Slana Palačinka Kulen</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">400 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane-palacinke/palacinka-kulen-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slane-palacinke/palacinka-kulen-sastav" class="accordion-collapse collapse border-0"> kulen, pavlaka, kačkavalj </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slane-palacinke-palacinka-pecenica", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slana Palacinka Pecenica">
-        <div class="card-body">
-          <h3 class="card-title h4">Slana Palačinka Pečenica</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">400 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane-palacinke/palacinka-pecenica-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slane-palacinke/palacinka-pecenica-sastav" class="accordion-collapse collapse border-0"> pečenica, pavlaka, kačkavalj </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("pasta-dishes-spaghetti-bolognase", $image_path_array, "Spaghetti Bolognase", "", "11,00 €", "sauce, minced meat");
+    echo productCardPrintCol6ColMd3("pasta-dishes-spaghetti-napoliten", $image_path_array, "Spaghetti Napoliten", "Vegetarian", "9,50 €", "tomato sauce");
+    echo productCardPrintCol6ColMd3("pasta-dishes-spaghetti-milanese", $image_path_array, "Spaghetti Milanese", "", "11,00 €", "tomato sauce, ham, mushrooms");
+    echo productCardPrintCol6ColMd3("pasta-dishes-spaghetti-carbonara", $image_path_array, "Spaghetti Carbonara", "", "11,00 €", "ham, cream, egg");
+    echo productCardPrintCol6ColMd3("pasta-dishes-spaghetti-with-tuna", $image_path_array, "Spaghetti with Tuna", "", "12,00 €", "");
+    echo productCardPrintCol6ColMd3("pasta-dishes-spaghetti-with-seafood", $image_path_array, "Spaghetti with Seafood", "", "13,00 €", "crayfish, musseles, anchovies, calamari");
+    echo productCardPrintCol6ColMd3("pasta-dishes-gluten-free-spaghetti", $image_path_array, "Gluten free Spaghetti", "", "13,00 €", "");
+    ?>
+   
   </div>
-  <!-- Slatke palacinke -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="palacinke-slatke">
+  <!-- TAGLIATELE-->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
-      <h2 class="h1">Palačinke Slatke</h2>
+      <h2 class="h1">TAGLIATELE</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-eurokrem", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Eurokrem">
-        <div class="card-body">
-          <h3 class="card-title h4">Eurokrem</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">300 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/eurokrem-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/eurokrem-sastav" class="accordion-collapse collapse border-0"> eurokrem </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-nutela", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Nutela">
-        <div class="card-body">
-          <h3 class="card-title h4">Nutela</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">310 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/nutela-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/nutela-sastav" class="accordion-collapse collapse border-0"> nutela </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-baunti", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Baunti">
-        <div class="card-body">
-          <h3 class="card-title h4">Bounty</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">380 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/baunti-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/baunti-sastav" class="accordion-collapse collapse border-0"> nutela, seckani kokos </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-mars", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Mars">
-        <div class="card-body">
-          <h3 class="card-title h4">Mars</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">380 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/mars-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/mars-sastav" class="accordion-collapse collapse border-0"> nutela, karamela </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-milka", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Milka">
-        <div class="card-body">
-          <h3 class="card-title h4">Milka</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">400 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/milka-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/milka-sastav" class="accordion-collapse collapse border-0"> milka čokolada </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-kinder", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Kinder">
-        <div class="card-body">
-          <h3 class="card-title h4">Kinder</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">400 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/kinder-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/kinder-sastav" class="accordion-collapse collapse border-0"> kinder čokoladice </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-snikers", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Snikers">
-        <div class="card-body">
-          <h3 class="card-title h4">Snikers</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">400 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/snikers-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/snikers-sastav" class="accordion-collapse collapse border-0"> nutela, karamela, komadići kikirikija </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-oreo", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Oreo">
-        <div class="card-body">
-          <h3 class="card-title h4">Oreo</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">400 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#palacinke/oreo-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="palacinke/oreo-sastav" class="accordion-collapse collapse border-0"> nutela, oreo mrvice </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-med", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Med">
-        <div class="card-body">
-          <h3 class="card-title h4">Med</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">290 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/med-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/med-sastav" class="accordion-collapse collapse border-0"> livadski med </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-dzem", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Dzem">
-        <div class="card-body">
-          <h3 class="card-title h4">Džem</h3>
-          <p class="card-text">300g</p>
-          <p class="card-text">280 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/dzem-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/dzem-sastav" class="accordion-collapse collapse border-0"> džem od kajsije </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("slatke-palacinke-secer", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Slatka Palacinka Secer">
-        <div class="card-body">
-          <h3 class="card-title h4">Šećer</h3>
-          <p class="card-text">350g</p>
-          <p class="card-text">180 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/secer-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="slatke_palacinke/secer-sastav" class="accordion-collapse collapse border-0"> šećer </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("tagliatele-chicken-tagliatele", $image_path_array, "Chicken Tagliatele", "", "12,00 €", "chicken, zucchini, cream, red pepper");
+    echo productCardPrintCol6ColMd3("tagliatele-tagliatele-mixed", $image_path_array, "Tagliatele Mixed", "", "13,00 €", "chicken, salmon, shrimp, cream");
+    ?>
   </div>
-  <!-- Dodaci -->
-  <div class="dodaci" id="dodaci">
-    <div class="row justify-content-center">
-      <!-- Dodaci Slani -->
-      <div class="slani-dodaci text-center col-12 col-md-6" id="slani-dodaci">
-        <div class="my-3 text-center">
-          <h2 class="h1">Slani Dodaci</h2>
-        </div>
-        <div class="my-3 text-center slani-dodaci-gramaza">
-          <p>
-            <u>50/100g</u>
-          </p>
-        </div>
-        <div class="my-3 text-center slani-dodaci-cena">
-          <p>
-            <u>90/180din</u>
-          </p>
-        </div>
-        <div class="row mb-5 d-flex justify-content-evenly">
-          <div class="text-center row d-flex justify-content-evenly" style="max-width: 500px;">
-            <div class="col-4 col-md-4">Masline</div>
-            <div class="col-4 col-md-4">pavlaka</div>
-            <div class="col-4 col-md-4">jaje</div>
-            <div class="col-4 col-md-4">pecurke</div>
-            <div class="col-4 col-md-4">kackavalj</div>
-            <div class="col-4 col-md-4">sunka</div>
-            <div class="col-4 col-md-4">suvi vrat</div>
-            <div class="col-4 col-md-4">pecenica</div>
-            <div class="col-4 col-md-4">kulen</div>
-            <div class="col-4 col-md-4">prsuta</div>
-            <div class="col-4 col-md-4">slanina</div>
-            <div class="col-4 col-md-4">kajmak</div>
-            <div class="col-4 col-md-4">pelat</div>
-          </div>
-        </div>
-      </div>
-      <!-- Pomfrit -->
-      <div class="col-6 col-md-3" id="prilozi">
-        <div class="my-3 text-center">
-          <h2 class="h1">Prilozi</h2>
-        </div>
-        <div class="card">
-          <img loading="lazy" <?php
-echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="Pomfrit">
-          <div class="card-body">
-            <h3 class="card-title h4">Pomfrit</h3>
-            <p class="card-text">250g</p>
-            <p class="card-text">300 din.</p>
-            <div class="accordion border-0">
-              <div class="accordion-item border-0">
-                <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pomfrit-sastav">
-                  <b>Sastav</b>
-                </button>
-                <div id="pomfrit-sastav" class="accordion-collapse collapse border-0"> rezani krompir </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Dodaci Slatki -->
-    <div class="slatki-dodaci row justify-content-center" id="slatki-dodaci">
-      <div class="my-3 text-center">
-        <h2 class="h1">Slatki Dodaci</h2>
-      </div>
-      <div class="slatki-dodaci-items">
-        <table class="table-striped table">
-          <tbody>
-            <tr>
-              <td>Plazma u mleku</td>
-              <td>50g</td>
-              <td>120 din.</td>
-            </tr>
-            <tr>
-              <td>Lešnik</td>
-              <td>30g</td>
-              <td>90 din.</td>
-            </tr>
-            <tr>
-              <td>Orah</td>
-              <td>30g</td>
-              <td>90 din.</td>
-            </tr>
-            <tr>
-              <td>Malina</td>
-              <td>50g</td>
-              <td>90 din.</td>
-            </tr>
-            <tr>
-              <td>Višnja</td>
-              <td>50g</td>
-              <td>90 din.</td>
-            </tr>
-            <tr>
-              <td>Banana</td>
-              <td>50g</td>
-              <td>90 din.</td>
-            </tr>
-            <tr>
-              <td>Šlag</td>
-              <td></td>
-              <td>90 din.</td>
-            </tr>
-            <tr>
-              <td>Plazma</td>
-              <td>30g</td>
-              <td>80 din.</td>
-            </tr>
-            <tr>
-              <td>Kokos</td>
-              <td>30g</td>
-              <td>80 din.</td>
-            </tr>
-            <tr>
-              <td>Kikiriki</td>
-              <td>30g</td>
-              <td>80 din.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-  <!-- Pica -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pica">
+  <!-- LASAGNE -->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
-      <h2 class="h1">Pića</h2>
+      <h2 class="h1">LASAGNE</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pica-rosa", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Rosa Voda">
-        <div class="card-body">
-          <h3 class="card-title h4">Rosa Voda</h3>
-          <p class="card-text">0.5l</p>
-          <p class="card-text">130 din.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pica-coca-cola", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Coca Cola">
-        <div class="card-body">
-          <h3 class="card-title h4">Coca-Cola</h3>
-          <p class="card-text">0.33l</p>
-          <p class="card-text">180din</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pica-cola-zero", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Coca Cola Zero">
-        <div class="card-body">
-          <h3 class="card-title h4">Coca-Cola Zero</h3>
-          <p class="card-text">0.33l</p>
-          <p class="card-text">180 din.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pica-fanta", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Fanta">
-        <div class="card-body">
-          <h3 class="card-title h4">Fanta</h3>
-          <p class="card-text">0.33l</p>
-          <p class="card-text">180 din.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <img loading="lazy" <?php
-echo imageSrcSetMenuItem("pica-ultra", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="Ultra Energy">
-        <div class="card-body">
-          <h3 class="card-title h4">Ultra Energy</h3>
-          <p class="card-text">0.25l</p>
-          <p class="card-text">200 din.</p>
-        </div>
-      </div>
-    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("lasagne-lasagne-bolognese", $image_path_array, "Lasagne Bolognese", "", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("lasagne-lasagne-vegetarian", $image_path_array, "Lasagne Vegetarian", "Vegetarian", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("lasagne-lasagne-4-kinds-of-cheese", $image_path_array, "Lasagne 4 Kinds of Cheese", "Vegetarian", "11,50 €", "");
+    ?>
+   
   </div>
-</div>
-<!-- Od kontenjera za sve proizvode -->
-<!-- Zone i dostave -->
-<div class="zone container-fluid p-0" id="zone">
-  <div class="my-3 text-center">
-    <h2 class="h1">Zone i Dostave</h2>
+<!-- GNOCCHI -->
+<div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">TGNOCCHI</h2>
+    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("gnocchi-salmon-gnocchi", $image_path_array, "Salmon Gnocchi", "Vegetarian", "13,00 €", "");
+    echo productCardPrintCol6ColMd3("gnocchi-gnocchi-of-your-choosing", $image_path_array, "Gnocchi of Your Choosing", "", "13,00 €", "chicken, four kinds of cheese, bolognese");
+    ?>
+   
   </div>
-  <div class="text-center mb-2 address">
-    <a href="https://maps.app.goo.gl/X1V4ZRvGGvvAr5oU8" target="_blank">
-      <h3>
-        <i class="fa-solid fa-location-dot me-3" style="color: #f00;"></i>Adresa: Ljubićka 11, Beograd
-      </h3>
-    </a>
+<!--RICE DISHES -->
+<div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">RICE DISHES</h2>
+    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("rice-dishes-chicken-risotto", $image_path_array, "Chicken Risotto", "", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("rice-dishes-vegetarian-risotto", $image_path_array, "Vegetarian Risotto", "Vegetarian", "11,50 €", "");
+    echo productCardPrintCol6ColMd3("rice-dishes-mussel-risotto", $image_path_array, "Mussel Risotto", "", "12,50 €", "");
+    echo productCardPrintCol6ColMd3("rice-dishes-seafood-risotto", $image_path_array, "Seafood Risotto", "", "12,50 €", "");
+    echo productCardPrintCol6ColMd3("rice-dishes-risotto-with-prawns", $image_path_array, "Risotto with Prawns", "", "13,50 €", "");
+    echo productCardPrintCol6ColMd3("rice-dishes-black-risotto", $image_path_array, "Black Risotto", "", "13,50 €", "");
+    ?>
+   
   </div>
-  <div class="w-100 text-center text-muted mb-2 p-2">Plaćanje je moguće isključivo gotovinom</div>
-  <!-- My Maps Test -->
-  <div id="map-canvas"></div>
-  <style>
-    html,
-    body,
-    #map-canvas {
-      height: 100%;
-      margin: 0px;
-      padding: 0px
-    }
-  </style>
+<!-- DISHES A LA CARTE -->
+<div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">DISHES A LA CARTE</h2>
+    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-mixed-grill-plate", $image_path_array, "Mixed Grill Plate", "", "19,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-beef-steak", $image_path_array, "Beef Steak", "", "29,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-rump-steak", $image_path_array, "Rump Steak", "", "24,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-chicken-in-sauce-with-mushrooms-or-cheese", $image_path_array, "Chicken in Sauce with Mushrooms or Cheese", "", "15,00€", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-chicken-steak", $image_path_array, "Chicken Steak", "", "13,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-pljeskavica", $image_path_array, "Pljeskavica", "", "13,00 €", "minced meat *Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-evap-i-i-skewers-of-your-choosing", $image_path_array, "Ćevapčići Skewers of Your Choosing", "", "13,00 €", "pork or chicken *Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-sausages", $image_path_array, "Sausages", "", "13,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-hamburger", $image_path_array, "Hamburger", "", "7,00 €", "ajvar, mayonnaise, lettuce, tomatoes *Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-cheeseburger", $image_path_array, "Cheeseburger", "", "7,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    echo productCardPrintCol6ColMd3("dishes-a-la-carte-vege-burger", $image_path_array, "Vege Burger", "Vegan, Vegetarian", "9,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
+    ?>
+  </div>
+<!-- GARNISHINGS -->
+<div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">GARNISHINGS</h2>
+    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("garnishings-mixed-vegetables", $image_path_array, "Mixed Vegetables", "Vegan, Vegetarian", "7,00 €", "");
+    echo productCardPrintCol6ColMd3("garnishings-pommes-frites", $image_path_array, "Pommes Frites", "Vegan, Vegetarian", "5,00 €", "");
+    echo productCardPrintCol6ColMd3("garnishings-chard-mangold", $image_path_array, "Chard/Mangold", "Vegan, Vegetarian", "7,00 €", "");
+    ?>
+  </div>
+<!-- FISH DISHES -->
+<div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">FISH DISHES</h2>
+    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("fish-dishes-fish-dishes", $image_path_array, "Fish Dishes", "Vegetarian", "50,00 €", "");
+    echo productCardPrintCol6ColMd3("fish-dishes-tuna-steak", $image_path_array, "Tuna Steak ", "Vegetarian", "20,00 €", "");
+    echo productCardPrintCol6ColMd3("fish-dishes-fish-dishes", $image_path_array, "Fish Dishes", "Vegetarian", "20,00 €", "SEA BASS OR BREAM FISH");
+    echo productCardPrintCol6ColMd3("fish-dishes-squids", $image_path_array, "Squids", "Vegetarian", "19,00 €", "");
+    echo productCardPrintCol6ColMd3("fish-dishes-small-fish", $image_path_array, "Small Fish", "Vegetarian", "11,00 €", "");
+    echo productCardPrintCol6ColMd3("fish-dishes-fried-fish-filet", $image_path_array, "Fried Fish Filet", "Vegetarian", "14,00 €", "");
+    ?>
+  </div>
+<!-- Pizza-->
+<div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">Pizza</h2>
+    </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("pizza-mixed-pizza", $image_path_array, "Mixed Pizza ", "", "11,00 €", "tomato, cheese, ham, mushrooms");
+    echo productCardPrintCol6ColMd3("pizza-pizza-margarita", $image_path_array, "Pizza Margarita", "Vegetarian", "9,50 €", "tomato, cheese, olives");
+    echo productCardPrintCol6ColMd3("pizza-pzza-napolitana", $image_path_array, "Pzza Napolitana", "Vegetarian", "11,00 €", "tomato, cheese, anchovies, olives");
+    echo productCardPrintCol6ColMd3("pizza-pizza-romana", $image_path_array, "Pizza Romana ", "", "11,00 €", "tomato, cheese, ham");
+    echo productCardPrintCol6ColMd3("pizza-pizza-with-mushrooms", $image_path_array, "Pizza with Mushrooms", "Vegetarian", "10,50 €", "tomato, cheese, mushrooms");
+    echo productCardPrintCol6ColMd3("pizza-pizza-pepperoni", $image_path_array, "Pizza Pepperoni", "", "11,00 €", "tomato, cheese, salame");
+    echo productCardPrintCol6ColMd3("pizza-seafood-pizza", $image_path_array, "Seafood Pizza ", "Vegetarian", "12,50 €", "tomato, cheese, crayfish, musseles, anchovies, olives");
+    echo productCardPrintCol6ColMd3("pizza-pizza-konavale", $image_path_array, "Pizza Konavale", "", "12,00 €", "tomato, cheese, bacon, egg, mushrooms");
+    echo productCardPrintCol6ColMd3("pizza-pizza-kabalero", $image_path_array, "Pizza Kabalero", "", "13,00 €", "tomato, cheese, ham, smoked ham, mushrooms, olives, ruccola, cherry tomatoes");
+    echo productCardPrintCol6ColMd3("pizza-pizza-vegetarian", $image_path_array, "Pizza Vegetarian", "Vegetarian", "11,50 €", "tomato, cheese, vegetables, mushrooms");
+    echo productCardPrintCol6ColMd3("pizza-pizza-vegan", $image_path_array, "Pizza Vegan", "Vegan, Vegetarian", "13,00 €", "tomato, vege cheese, vegetables");
+    echo productCardPrintCol6ColMd3("pizza-pizza-with-tunna", $image_path_array, "Pizza with Tunna", "", "12,00 €", "tomato, cheese, tunny, olives");
+    echo productCardPrintCol6ColMd3("pizza-pizza-hawai", $image_path_array, "Pizza Hawai", "", "12,00 €", "tomato, cheese, ham, pineapple");
+    echo productCardPrintCol6ColMd3("pizza-pizza-four-chees", $image_path_array, "Pizza Four Chees", "Vegetarian", "12,00 €", "tomato sauce, four kinds of cheese");
+    echo productCardPrintCol6ColMd3("pizza-pizza-bolognese", $image_path_array, "Pizza Bolognese", "", "12,00 €", "tomato, cheese, sauce of minced meat");
+    echo productCardPrintCol6ColMd3("pizza-pizza-mexicana", $image_path_array, "Pizza Mexicana", "", "12,00 €", "tomato, cheese, corn, ham, kulen salami, pepper, hot pepper");
+    echo productCardPrintCol6ColMd3("pizza-pizza-four-seasons", $image_path_array, "Pizza Four Seasons", "", "13,00 €", "tomato, cheese, vegetables, ham, mushrooms, seafood");
+    echo productCardPrintCol6ColMd3("pizza-pizza-slavonian", $image_path_array, "Pizza Slavonian", "", "12,00 €", "tomato, cheese, bacon, hot pepper, salami, sausage, corn, sour cream");
+    echo productCardPrintCol6ColMd3("pizza-pizza-chicken", $image_path_array, "Pizza Chicken", "", "12,00 €", "tomato, cheese, chicken, mushrooms, corn");
+    echo productCardPrintCol6ColMd3("pizza-calzone", $image_path_array, "Calzone", "", "9,00 €", "tomato, cheese, ham");
+    echo productCardPrintCol6ColMd3("pizza-piro-ka", $image_path_array, "Piroška", "", "10,50 €", "tomato, cheese, ham, mushrooms, sour cream");
+    echo productCardPrintCol6ColMd3("pizza-pizza-kruh", $image_path_array, "Pizza Kruh", "Vegetarian", "9,00 €", "oil, garlic");
+    echo productCardPrintCol6ColMd3("pizza-gluten-free-pizza", $image_path_array, "Gluten Free Pizza ", "", "14,00 €", "");
+    echo productCardPrintCol6ColMd3("pizza-jumbo-pizza", $image_path_array, "Jumbo Pizza ", "", "20,00 €", "");
+    ?>
+  </div>
+  <!-- PIZZA-GARNISHING -->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+    <div class="my-3">
+      <h2 class="h1">PIZZA-GARNISHING</h2>
+    </div>
+    <?php
+    echo productCardPrintCol6ColMd3("pizza-garnishing-olives", $image_path_array, "Olives", "", "4,00 €", "");
+    echo productCardPrintCol6ColMd3("pizza-garnishing-egg", $image_path_array, "Egg", "", "2,50 €", "");
+    echo productCardPrintCol6ColMd3("pizza-garnishing-kechup", $image_path_array, "Kechup", "", "2,50 €", "");
+    echo productCardPrintCol6ColMd3("pizza-garnishing-mayonnaise", $image_path_array, "Mayonnaise", "", "2,50 €", "");
+    echo productCardPrintCol6ColMd3("pizza-garnishing-mushrooms", $image_path_array, "Mushrooms", "", "2,50 €", "");
+    echo productCardPrintCol6ColMd3("pizza-garnishing-cream", $image_path_array, "Cream", "", "4,00 €", "");
+    echo productCardPrintCol6ColMd3("pizza-garnishing-sauce", $image_path_array, "Sauce", "", "5,00 €", "mushrooms or cheese or pepper");
+    ?>
+  </div>
   <!--  -->
   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&loading=async&callback=initMap&region=RS&language=en"></script>
   <script>
