@@ -63,22 +63,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-3 mb-2 mb-lg-0 ms-3">
         <li class="nav-item">
-          <a class="nav-link" href="/#pice">Pice</a>
+          <a class="nav-link" href="/#cold-appertizers">Cold Appertizers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#tortilje">Tortilje</a>
+          <a class="nav-link" href="/#salads">Salads</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#piroske-i-obroci">Piroške i obroci</a>
+          <a class="nav-link" href="/#soups">Soups</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#sendvici">Sendvici</a>
+          <a class="nav-link" href="/#hot-side-dishes">Hot Side Dishes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#palacinke-slane">Palačinke Slane</a>
+          <a class="nav-link" href="/#pasta-dishes">Pasta Dishes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#palacinke-slatke">Palačinke Slatke</a>
+          <a class="nav-link" href="/#tagliatele">Tagliatele</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/#dodaci">Dodaci</a>

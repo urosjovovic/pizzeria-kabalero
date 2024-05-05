@@ -25,7 +25,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
 </div>
 <div class="container meni">
   <!-- Pice -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="cold-appertizers">
     <div class="my-3">
       <h2 class="h1">COLD APPETIZERS</h2>
     </div> <?php echo productCardPrintCol6ColMd3("cold-appetizers-dalmatian-smoked-ham", $image_path_array, "Dalmatian Smoked Ham", "", "15,00 €", "");
@@ -36,7 +36,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- SALADS -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="salads">
     <div class="my-3">
       <h2 class="h1">SALADS</h2>
     </div> <?php
@@ -49,7 +49,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- SOUPS -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="soups">
     <div class="my-3">
       <h2 class="h1">SOUPS</h2>
     </div> <?php
@@ -60,7 +60,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!--HOT SIDE DISHES  -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="hot-side-dishes">
     <div class="my-3">
       <h2 class="h1">HOT SIDE DISHES</h2>
     </div> <?php 
@@ -82,7 +82,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- PASTA DISHES -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pasta-dishes">
     <div class="my-3">
       <h2 class="h1">PASTA DISHES</h2>
     </div> <?php 
@@ -96,7 +96,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- TAGLIATELE-->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tagliatele">
     <div class="my-3">
       <h2 class="h1">TAGLIATELE</h2>
     </div> <?php 
