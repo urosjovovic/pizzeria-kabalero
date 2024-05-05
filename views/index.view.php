@@ -19,7 +19,9 @@ images/cover/cover-w2000.webp 2000w,
 images/cover/cover-w2400.webp 2400w,
 images/cover/cover-w2800.webp 2800w,
 images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
-  <!-- <a href="/poruci-online"><button class="hero-image-button btn-lg">Poruči onlajn</button></a> -->
+  <a href="/poruci-online">
+    <button class="hero-image-button btn-lg">Poruči onlajn</button>
+  </a>
 </div>
 <div class="container meni">
   <!-- Pice -->
@@ -221,7 +223,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- Pica-Warm Beverages -->
-  <div class="row" id="karta-pica" data-masonry='{"percentPosition": true }'>
+<div class="row" id="karta-pica" data-masonry='{"percentPosition": true }'>
     <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">Warm Beverages</h2>
@@ -501,15 +503,16 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
         </table>
       </div>
     </div>
-    <!-- Pica-WHITE WINES-->
-    <div class="karta-pica col-12 col-md-6 justify-content-center">
+  
+   <!-- Pica-WHITE WINES-->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">WHITE WINES</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-            <tr>
+          <tr>
               <td>Graševina Glass</td>
               <td>0,20 L</td>
               <td>5,00 €</td>
@@ -563,15 +566,16 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
         </table>
       </div>
     </div>
-    <!-- My-Red Wines -->
-    <div class="karta-pica col-12 col-md-6 justify-content-center">
+  </div>
+  <!-- My-Red Wines -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">RED WINES</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-            <tr>
+          <tr>
               <td>Plavac Glass</td>
               <td>0,20 L</td>
               <td>5,00 €</td>
@@ -619,16 +623,18 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-    </div>
-    <!-- ROSE WINES -->
-    <div class="karta-pica col-12 col-md-6 justify-content-center">
+  </div>
+
+
+  <!-- ROSE WINES -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">ROSE WINES</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-            <tr>
+          <tr>
               <td>Rose Glass</td>
               <td>0,20 L</td>
               <td>5,00 €</td>
@@ -676,9 +682,10 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-    </div>
-    <!-- Beer -->
-    <div class="karta-pica col-12 col-md-6 justify-content-center">
+  </div>
+
+  <!-- Beer -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">Beer</h2>
       </div>
@@ -743,16 +750,16 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-    </div>
-    <!-- Alcoholic Drinks -->
-    <div class="karta-pica col-12 col-md-6 justify-content-center">
+  </div>
+  <!-- Alcoholic Drinks -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">Alcoholic Drinks</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-            <tr>
+          <tr>
               <td>Grape Brandy</td>
               <td>0,03 L</td>
               <td>3,50 €</td>
@@ -910,8 +917,96 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-    </div>
+</div>
+
+  <!-- Cocktails -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">Cocktails</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+          <tr>
+              <td>Sunny Garden</td>
+              <td>rum consul, triple sec, orange juice, apricot</td>
+              <td>10,50 €</td>
+            </tr>
+            <tr>
+              <td>Green Island</td>
+              <td>vodka local, triple sec, curcao blue, orange juice</td>
+              <td>10,50 €</td>
+            </tr>
+            <tr>
+              <td>Mojito</td>
+              <td>havana club, brown sugar, lime juice, mint leaves, mineral water</td>
+              <td>10,50 €</td>
+            </tr>
+            <tr>
+              <td>Pina Colada</td>
+              <td>bacardi, coco liquier, cream, pineapple juice</td>
+              <td>10,50 €</td>
+            </tr>
+            <tr>
+              <td>Aperol Spritz</td>
+              <td>prosecco, aperol, soda water</td>
+              <td>10,50 €</td>
+            </tr>
+            <tr>
+              <td>Cosmopolitan</td>
+              <td>vodka, cranberry juice, lemon juice</td>
+              <td>10,50 €</td>
+            </tr>
+            <tr>
+              <td>Sex on the Beach</td>
+              <td>vodka, peach liquier, apricot, orange juice, pineapple juice, blueberry juice</td>
+              <td>11,50 €</td>
+            </tr>
+            <tr>
+              <td>Mai Tai</td>
+              <td>bacardi, dark rum, grenadine syrup, amaretto, orange juice</td>
+              <td>11,50 €</td>
+            </tr>
+            <tr>
+              <td>Margarita</td>
+              <td>tequila, bacardi, lime juice</td>
+              <td>10,50 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   </div>
-  <!-- Page content end --> <?php
+
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">Cocktails</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+          <tr>
+              <td>Refreshing Day</td>
+              <td>strawberry juice, pineapple juice, orange juice, coco syrup</td>
+              <td>9,50 €</td>
+            </tr>
+            <tr>
+              <td>Kabalero Sunrise</td>
+              <td>orange juice, pineapple juice, grenadine syrup</td>
+              <td>9,50 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+</div>
+<!-- Page content end --> <?php
 require 'views/partials/footer.php';
 ?>
