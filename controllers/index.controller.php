@@ -1,13 +1,13 @@
 <?php
 
-$title = "Pizzeria Kabalero - Generational Restorant on the Mediteranean";
-$meta_description = "Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u ukusima naših pica, tortilja, pirošaka, palačinaka i obroka.";
-$meta_title = "Pizzeria Kabalero - Generational Restorant on the Mediteranean";
-$og_title = "Pizzeria Kabalero - Generational Restorant on the Mediteranean";
+$title = "Pizzeria Kabalero - Generational Restaurant on the Mediteranean";
+$meta_description = "Nestled in the heart of the Mediterranean, our pizzeria has been a cherished part of the landscape since 1980. With the same warmth and dedication passed down through generations, we invite you to join us in experiencing the essence of Mediterranean hospitality.";
+$meta_title = "Pizzeria Kabalero - Generational Restaurant on the Mediteranean";
+$og_title = "Pizzeria Kabalero - Generational Restaurant on the Mediteranean";
 $og_url = "https://www.pizzeria-kabalero.hr";
 $og_image = "https://www.pizzeria-kabalero.hr/images/cover-w1250.webp";
-$og_description = "Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u ukusima naših pica, tortilja, pirošaka, palačinaka i obroka.";
-$og_image_alt = "Razna hrana";
+$og_description = "Nestled in the heart of the Mediterranean, our pizzeria has been a cherished part of the landscape since 1980. With the same warmth and dedication passed down through generations, we invite you to join us in experiencing the essence of Mediterranean hospitality.";
+$og_image_alt = "Restaurant view";
 $preload_cover_image = "";
 $footer_title_html_raw = "<h1> Pizzeria Kabalero </h1>";
 

@@ -5,9 +5,20 @@ function main() {
     if (!app.documents.length) {
         var inputFolder = Folder.selectDialog("Select a folder to process");
         if (inputFolder) {
-            var widths = [136, 154, 214, 262, 304, 402, 428, 462, 524, 608, 642, 786]; // Define desired widths here
-            processFolder(inputFolder, widths);
-            alert("Batch processing complete!");
+            var desiredWidths = prompt("Enter desired widths separated by commas (e.g., 136, 154, 214)", "");
+
+            // Check if user input is valid
+            if (desiredWidths) {
+                var widths = desiredWidths.split(",").map(width => parseInt(width.trim())); // Process the widths as an array of numbers
+
+                processFolder(inputFolder, widths);
+                alert("Batch processing complete!");
+            } else {
+                alert("Invalid widths entered. Exiting script.");
+            }
+            // var widths = [136, 154, 214, 262, 304, 402, 428, 462, 524, 608, 642, 786]; // Define desired widths here
+            // processFolder(inputFolder, widths);
+            // alert("Batch processing complete!");
         } else {
             alert("No folder selected. Exiting script.");
         }
