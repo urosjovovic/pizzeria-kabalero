@@ -244,40 +244,212 @@ sizes="100vw"
     echo productCardPrintCol6ColMd3("pizza-garnishing-sauce", $image_path_array, "Sauce", "", "5,00 €", "mushrooms or cheese or pepper");
     ?>
   </div>
-  <!--  -->
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&loading=async&callback=initMap&region=RS&language=en"></script>
-  <script>
-    var map;
-    var infowindow;
-    async function initMap() {
-      var mapOptions = {
-        gestureHandling: 'cooperative',
-        maxZoom: 22,
-        streetViewControl: false,
-        minZoom: 12,
-        restriction: {
-          latLngBounds: {
-            north: 44.878633,
-            south: 44.724634,
-            east: 20.569483,
-            west: 20.381334,
-          },
-        },
-        styles: [{
-          featureType: "poi.business",
-          stylers: [{
-            visibility: "off"
-          }],
-        }]
-      }
-      map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-      var mapLayer = new google.maps.KmlLayer({
-        url: "https://www.google.com/maps/d/kml?mid=1zKE0tMK2R_ecfuQzbi-cAVZpeS1d0As"
-      });
-      mapLayer.setMap(map);
-    }
-    // google.maps.event.addDomListener(window, 'load', initMap);
-  </script>
+  <!-- Pica-Warm Beverages -->
+<div class="slatki-dodaci row justify-content-center" id="slatki-dodaci">
+      <div class="my-3 text-center">
+        <h2 class="h1">Warm Beverages</h2>
+      </div>
+      <div class="slatki-dodaci-items">
+        <table class="table-striped table">
+          <tbody>
+            <tr>
+              <td>Coffee Espresso</td>
+              <td>Cup</td>
+              <td>2,00 €</td>
+            </tr>
+            <tr>
+              <td>Capuccino</td>
+              <td>Cup</td>
+              <td>3,00 €</td>
+            </tr>
+            <tr>
+              <td>Coffee with Cream</td>
+              <td>Cup</td>
+              <td>3,00 €</td>
+            </tr>
+            <tr>
+              <td>Americano Coffee</td>
+              <td>Cup</td>
+              <td>3,00 €</td>
+            </tr>
+            <tr>
+              <td>Cocoa</td>
+              <td>Cup</td>
+              <td>3,00 €</td>
+            </tr>
+            <tr>
+              <td>Nescafe</td>
+              <td>Cup</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Milk</td>
+              <td>0,2L</td>
+              <td>3,00 €</td>
+            </tr>
+            <tr>
+              <td>White Coffee</td>
+              <td>Cup</td>
+              <td>2,50 €</td>
+            </tr>
+            <tr>
+              <td>Ice Coffee</td>
+              <td>Cup</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Tea </td>
+              <td>Cup</td>
+              <td>2,50 €</td>
+            </tr>
+            <tr>
+              <td>Warm Tea</td>
+              <td>0,25L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Warm Chocolate</td>
+              <td>Cup</td>
+              <td>4,50 €</td>
+            </tr>
+            <tr>
+              <td> Coffee without Caffeine</td>
+              <td>Cup</td>
+              <td>2,50 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+<!-- Pica-Nonalcoholic drinks -->
+<div class="slatki-dodaci row justify-content-center" id="slatki-dodaci">
+      <div class="my-3 text-center">
+        <h2 class="h1">Nonalcoholic drinks</h2>
+      </div>
+      <div class="slatki-dodaci-items">
+        <table class="table-striped table">
+          <tbody>
+            <tr>
+              <td>Coca Coka</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Cockta</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Tonic Water</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Bitter Lemon</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Fanta</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Tangerina</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Sprite</td>
+              <td>0,25 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Orange Juice</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Peach Juice</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Apple Juice</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Blueberry Juice</td>
+              <td>0,20L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Strawberry Juice</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Pear Juice</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Pineapple Juice</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Natural Lemonade</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Orange Juice</td>
+              <td>0,20 L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Orangina</td>
+              <td>0,25L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Cedevita</td>
+              <td>0,20 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Red Bull</td>
+              <td>0,25 L</td>
+              <td>6,00 €</td>
+            </tr>
+            <tr>
+              <td>Mineral Water</td>
+              <td>1,00 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Mineral Water</td>
+              <td>0,20L</td>
+              <td>3,0 €</td>
+            </tr>
+            <tr>
+              <td>Natural Still Water</td>
+              <td>0,75 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Natural Still Water</td>
+              <td>0,20 L</td>
+              <td>3,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
   <!-- My Maps test -->
   <div class="row m-0 d-flex justify-content-evenly zona">
     <div class="my-3 text-center">Moguće je poručiti i bez ostvarenja minimuma, sa doplatom do minimalnog iznosa za Vašu zonu!</div>
