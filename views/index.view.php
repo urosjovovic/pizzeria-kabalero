@@ -358,7 +358,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
             </tr>
             <tr>
               <td>Blueberry Juice</td>
-              <td>0,20L</td>
+              <td>0,20 L</td>
               <td>3,50 €</td>
             </tr>
             <tr>
@@ -420,82 +420,6 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
               <td>Natural Still Water</td>
               <td>0,20 L</td>
               <td>3,00 €</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="karta-pica col-12 col-md-6 justify-content-center">
-      <div class="my-3 text-center">
-        <h2 class="h1">Warm Beverages</h2>
-      </div>
-      <div class="karta-pica-items">
-        <table class="table-striped table">
-          <tbody>
-            <tr>
-              <td>Coffee Espresso</td>
-              <td>Cup</td>
-              <td>2,00 €</td>
-            </tr>
-            <tr>
-              <td>Capuccino</td>
-              <td>Cup</td>
-              <td>3,00 €</td>
-            </tr>
-            <tr>
-              <td>Coffee with Cream</td>
-              <td>Cup</td>
-              <td>3,00 €</td>
-            </tr>
-            <tr>
-              <td>Americano Coffee</td>
-              <td>Cup</td>
-              <td>3,00 €</td>
-            </tr>
-            <tr>
-              <td>Cocoa</td>
-              <td>Cup</td>
-              <td>3,00 €</td>
-            </tr>
-            <tr>
-              <td>Nescafe</td>
-              <td>Cup</td>
-              <td>3,50 €</td>
-            </tr>
-            <tr>
-              <td>Milk</td>
-              <td>0,2L</td>
-              <td>3,00 €</td>
-            </tr>
-            <tr>
-              <td>White Coffee</td>
-              <td>Cup</td>
-              <td>2,50 €</td>
-            </tr>
-            <tr>
-              <td>Ice Coffee</td>
-              <td>Cup</td>
-              <td>5,50 €</td>
-            </tr>
-            <tr>
-              <td>Tea </td>
-              <td>Cup</td>
-              <td>2,50 €</td>
-            </tr>
-            <tr>
-              <td>Warm Tea</td>
-              <td>0,25L</td>
-              <td>3,50 €</td>
-            </tr>
-            <tr>
-              <td>Warm Chocolate</td>
-              <td>Cup</td>
-              <td>4,50 €</td>
-            </tr>
-            <tr>
-              <td> Coffee without Caffeine</td>
-              <td>Cup</td>
-              <td>2,50 €</td>
             </tr>
           </tbody>
         </table>
