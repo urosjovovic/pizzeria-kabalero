@@ -84,7 +84,7 @@
           <a class="nav-link" href="/#lasagne">Lasagne</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#gnocchi">gnocchi</a>
+          <a class="nav-link" href="/#gnocchi">Gnocchi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/#rice-dishes">Rice Dishes</a>

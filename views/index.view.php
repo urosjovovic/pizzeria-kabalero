@@ -19,9 +19,7 @@ images/cover/cover-w2000.webp 2000w,
 images/cover/cover-w2400.webp 2400w,
 images/cover/cover-w2800.webp 2800w,
 images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
-  <!-- <a href="/poruci-online">
-    <button class="hero-image-button btn-lg">Poruči onlajn</button>
-  </a> -->
+  <!-- <a href="/poruci-online"><button class="hero-image-button btn-lg">Poruči onlajn</button></a> -->
 </div>
 <div class="container meni">
   <!-- Pice -->
@@ -211,23 +209,55 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   <!-- PIZZA-GARNISHING -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pizza-garnishing">
     <div class="my-3">
-      <h2 class="h1">PIZZA-GARNISHING</h2>
-    </div> <?php
-    echo productCardPrintCol6ColMd3("pizza-garnishing-olives", $image_path_array, "Olives", "", "4,00 €", "");
-    echo productCardPrintCol6ColMd3("pizza-garnishing-egg", $image_path_array, "Egg", "", "2,50 €", "");
-    echo productCardPrintCol6ColMd3("pizza-garnishing-kechup", $image_path_array, "Kechup", "", "2,50 €", "");
-    echo productCardPrintCol6ColMd3("pizza-garnishing-mayonnaise", $image_path_array, "Mayonnaise", "", "2,50 €", "");
-    echo productCardPrintCol6ColMd3("pizza-garnishing-mushrooms", $image_path_array, "Mushrooms", "", "2,50 €", "");
-    echo productCardPrintCol6ColMd3("pizza-garnishing-cream", $image_path_array, "Cream", "", "4,00 €", "");
-    echo productCardPrintCol6ColMd3("pizza-garnishing-sauce", $image_path_array, "Sauce", "", "5,00 €", "mushrooms or cheese or pepper");
-    ?>
+      <h2 class="h2">PIZZA-GARNISHING</h2>
+    </div>
+    <div class="karta-pica-items" style="max-width:700px;">
+        <table class="table-striped table">
+          <tbody>
+            <tr>
+              <td>Olives</td>
+              <td></td>
+              <td>4,00 €</td>
+            </tr>
+            <tr>
+              <td>Egg</td>
+              <td></td>
+              <td>2,50 €</td>
+            </tr>
+            <tr>
+              <td>Kechup</td>
+              <td></td>
+              <td>2,50 €</td>
+            </tr>
+            <tr>
+              <td>Mayonnaise</td>
+              <td></td>
+              <td>2,50 €</td>
+            </tr>
+            <tr>
+              <td>Mushrooms</td>
+              <td></td>
+              <td>2,50 €</td>
+            </tr>
+            <tr>
+              <td>Cream</td>
+              <td></td>
+              <td>4,00 €</td>
+            </tr>
+            <tr>
+              <td>Sauce</td>
+              <td>mushrooms or cheese or pepper</td>
+              <td>5,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   </div>
-    <!-- Desserts -->
+  <!-- Desserts -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="desserts">
     <div class="my-3">
       <h2 class="h1">DESSERTS</h2>
-    </div>
-    <?php
+    </div> <?php
     echo productCardPrintCol6ColMd3("desserts-ice-cream-scoup", $image_path_array, "Ice Cream Scoup", "", "2,00 €", "");
     echo productCardPrintCol6ColMd3("desserts-daily-cake", $image_path_array, "Daily Cake", "", "6,00 €", "");
     echo productCardPrintCol6ColMd3("desserts-pancakes", $image_path_array, "Pancakes", "", "6,00 €", "");
@@ -235,8 +265,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </div>
   <!-- Pica-Warm Beverages -->
   <div class="my-3 text-center" id="drinks">
-        <h2 class="h1">DRINKS</h3>
-      </div>
+    <h2 class="h1">DRINKS </h3>
+  </div>
   <div class="row" id="karta-pica" data-masonry='{"percentPosition": true }'>
     <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
