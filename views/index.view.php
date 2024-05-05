@@ -303,7 +303,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     <!-- Pica-Nonalcoholic drinks -->
     <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
-        <h2 class="h1">Nonalcoholic drinks</h2>
+        <h2 class="h1">Non-Alcoholic drinks</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
@@ -360,7 +360,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
             </tr>
             <tr>
               <td>Blueberry Juice</td>
-              <td>0,20L</td>
+              <td>0,20 L</td>
               <td>3,50 €</td>
             </tr>
             <tr>
@@ -703,7 +703,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
               <td>4,00 €</td>
             </tr>
             <tr>
-              <td>Nonalcoholic beer</td>
+              <td>Non-Alcoholic beer</td>
               <td>0,50 L</td>
               <td>5,50 €</td>
             </tr>
@@ -979,7 +979,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
 
   <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
-        <h2 class="h1">Cocktails</h2>
+        <h2 class="h1">Non-Alcoholic Cocktails</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">

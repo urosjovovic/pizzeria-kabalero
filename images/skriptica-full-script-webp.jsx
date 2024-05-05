@@ -5,7 +5,8 @@ function main() {
     if (!app.documents.length) {
         var inputFolder = Folder.selectDialog("Select a folder to process");
         if (inputFolder) {
-            var widths = [136, 154, 214, 262, 304, 402, 428, 462, 524, 608, 642, 786]; // Define desired widths here
+            // var widths = [136, 154, 214, 262, 304, 402, 428, 462, 524, 608, 642, 786]; // Define desired widths here
+            var widths = [600, 700, 800, 900, 1000, 1100, 1250, 1400, 1600, 1800, 2000, 2400, 2800, 3200]; // Define desired widths here
             processFolder(inputFolder, widths);
             alert("Batch processing complete!");
         } else {
