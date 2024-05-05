@@ -301,6 +301,14 @@ footer{
     max-width: 700px;
 }
 
+.karta-pica-items>table>tbody>tr:nth-child(3){
+    text-wrap: nowrap!important;
+}
+
+.karta-pica-items>table>tbody>tr>td:first-child{
+    text-wrap: nowrap!important;
+}
+
 .slani-dodaci .slani-dodaci-gramaza, .slani-dodaci-cena {
     text-underline-offset: 4px;
 }
