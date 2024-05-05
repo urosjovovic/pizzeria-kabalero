@@ -5,7 +5,7 @@ require 'views/partials/header.php';
 ?>
 <!-- // Page content start -->
 <div class="container-fluid g-0 hero-image" id="cover">
-<img srcset="images/cover/cover-w600.webp 600w,
+  <img srcset="images/cover/cover-w600.webp 600w,
 images/cover/cover-w700.webp 700w,
 images/cover/cover-w800.webp 800w,
 images/cover/cover-w900.webp 900w,
@@ -19,9 +19,7 @@ images/cover/cover-w2000.webp 2000w,
 images/cover/cover-w2400.webp 2400w,
 images/cover/cover-w2800.webp 2800w,
 images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
-  <!-- <a href="/poruci-online">
-    <button class="hero-image-button btn-lg">Poruči onlajn</button>
-  </a> -->
+  <!-- <a href="/poruci-online"><button class="hero-image-button btn-lg">Poruči onlajn</button></a> -->
 </div>
 <div class="container meni">
   <!-- Pice -->
@@ -503,16 +501,15 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
         </table>
       </div>
     </div>
-  
-   <!-- Pica-WHITE WINES-->
-  <div class="karta-pica col-12 col-md-6 justify-content-center">
+    <!-- Pica-WHITE WINES-->
+    <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">WHITE WINES</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-          <tr>
+            <tr>
               <td>Graševina Glass</td>
               <td>0,20 L</td>
               <td>5,00 €</td>
@@ -565,17 +562,16 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-  </div>
-  </div>
-  <!-- My-Red Wines -->
-  <div class="karta-pica col-12 col-md-6 justify-content-center">
+    </div>
+    <!-- My-Red Wines -->
+    <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">RED WINES</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-          <tr>
+            <tr>
               <td>Plavac Glass</td>
               <td>0,20 L</td>
               <td>5,00 €</td>
@@ -623,18 +619,16 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-  </div>
-
-
-  <!-- ROSE WINES -->
-  <div class="karta-pica col-12 col-md-6 justify-content-center">
+    </div>
+    <!-- ROSE WINES -->
+    <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">ROSE WINES</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-          <tr>
+            <tr>
               <td>Rose Glass</td>
               <td>0,20 L</td>
               <td>5,00 €</td>
@@ -682,10 +676,9 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-  </div>
-
-  <!-- Beer -->
-  <div class="karta-pica col-12 col-md-6 justify-content-center">
+    </div>
+    <!-- Beer -->
+    <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">Beer</h2>
       </div>
@@ -750,16 +743,16 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
-  </div>
-  <!-- Alcoholic Drinks -->
-  <div class="karta-pica col-12 col-md-6 justify-content-center">
+    </div>
+    <!-- Alcoholic Drinks -->
+    <div class="karta-pica col-12 col-md-6 justify-content-center">
       <div class="my-3 text-center">
         <h2 class="h1">Alcoholic Drinks</h2>
       </div>
       <div class="karta-pica-items">
         <table class="table-striped table">
           <tbody>
-          <tr>
+            <tr>
               <td>Grape Brandy</td>
               <td>0,03 L</td>
               <td>3,50 €</td>
@@ -917,7 +910,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           </tbody>
         </table>
       </div>
+    </div>
   </div>
-<!-- Page content end --> <?php
+  <!-- Page content end --> <?php
 require 'views/partials/footer.php';
 ?>
