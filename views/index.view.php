@@ -105,7 +105,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- LASAGNE -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="lasagne">
     <div class="my-3">
       <h2 class="h1">LASAGNE</h2>
     </div> <?php 
@@ -115,7 +115,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- GNOCCHI -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tgnocchi">
     <div class="my-3">
       <h2 class="h1">TGNOCCHI</h2>
     </div> <?php 
@@ -124,7 +124,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!--RICE DISHES -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="rice-dishes">
     <div class="my-3">
       <h2 class="h1">RICE DISHES</h2>
     </div> <?php 
@@ -137,7 +137,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- DISHES A LA CARTE -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="dishes-a-la-carte">
     <div class="my-3">
       <h2 class="h1">DISHES A LA CARTE</h2>
     </div> <?php 
@@ -155,7 +155,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- GARNISHINGS -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="garnishings">
     <div class="my-3">
       <h2 class="h1">GARNISHINGS</h2>
     </div> <?php 
@@ -165,7 +165,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- FISH DISHES -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="fish-dishes">
     <div class="my-3">
       <h2 class="h1">FISH DISHES</h2>
     </div> <?php 
@@ -178,9 +178,9 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- Pizza-->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pizza">
     <div class="my-3">
-      <h2 class="h1">Pizza</h2>
+      <h2 class="h1">PIZZA</h2>
     </div> <?php 
     echo productCardPrintCol6ColMd3("pizza-mixed-pizza", $image_path_array, "Mixed Pizza ", "", "11,00 €", "tomato, cheese, ham, mushrooms");
     echo productCardPrintCol6ColMd3("pizza-pizza-margarita", $image_path_array, "Pizza Margarita", "Vegetarian", "9,50 €", "tomato, cheese, olives");
@@ -209,7 +209,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     ?>
   </div>
   <!-- PIZZA-GARNISHING -->
-  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pizza-garnishing">
     <div class="my-3">
       <h2 class="h1">PIZZA-GARNISHING</h2>
     </div> <?php
@@ -222,9 +222,20 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     echo productCardPrintCol6ColMd3("pizza-garnishing-sauce", $image_path_array, "Sauce", "", "5,00 €", "mushrooms or cheese or pepper");
     ?>
   </div>
+    <!-- Desserts -->
+  <div class="row d-flex justify-content-evenly gy-4 mt-3" id="desserts">
+    <div class="my-3">
+      <h2 class="h1">DESSERTS</h2>
+    </div>
+    <?php
+    echo productCardPrintCol6ColMd3("desserts-ice-cream-scoup", $image_path_array, "Ice Cream Scoup", "", "2,00 €", "");
+    echo productCardPrintCol6ColMd3("desserts-daily-cake", $image_path_array, "Daily Cake", "", "6,00 €", "");
+    echo productCardPrintCol6ColMd3("desserts-pancakes", $image_path_array, "Pancakes", "", "6,00 €", "");
+    ?>
+  </div>
   <!-- Pica-Warm Beverages -->
-  <div class="my-3 text-center">
-        <h2 class="h1">Drinks</h3>
+  <div class="my-3 text-center" id="drinks">
+        <h2 class="h1">DRINKS</h3>
       </div>
   <div class="row" id="karta-pica" data-masonry='{"percentPosition": true }'>
     <div class="karta-pica col-12 col-md-6 justify-content-center">

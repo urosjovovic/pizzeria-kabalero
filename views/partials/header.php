@@ -81,11 +81,36 @@
           <a class="nav-link" href="/#tagliatele">Tagliatele</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#dodaci">Dodaci</a>
+          <a class="nav-link" href="/#lasagne">Lasagne</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#pica">Piće</a>
+          <a class="nav-link" href="/#tgnocchi">Tgnocchi</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#rice-dishes">Rice Dishes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#dishes-a-la-carte">Dishes A La Carte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#garnishings">Garnishings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#fish-dishes">Fish Dishes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#pizza">Pizza</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#pizza-garnishing">Pizza Garnishing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#desserts">Desserts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#drinks">Drinks</a>
+        </li>
+       
         <li class="nav-item free-dostava-item">
           <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/#zone">Directions</a>
         </li>

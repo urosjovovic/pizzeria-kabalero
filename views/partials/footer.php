@@ -6,25 +6,55 @@
         <h2 class="h4">Menu</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="/#pice" class="nav-link p-0">Pice</a>
+            <a href="/#cold-appertizers" class="nav-link p-0">Cold Appertizers</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#tortilje" class="nav-link p-0">Tortilje</a>
+            <a href="/#salads" class="nav-link p-0">Salads</a>
           </li>
           <li class="nav-item mb-2">
             <a href="/#piroske-i-obroci" class="nav-link p-0">Piroške i obroci</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#sendvici" class="nav-link p-0">Sendviči</a>
+            <a href="/#soups" class="nav-link p-0">Soups</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#palacinke" class="nav-link p-0">Palačinke</a>
+            <a href="/#hot-side-dishes" class="nav-link p-0">Hot Side Dishes</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#dodaci" class="nav-link p-0">Dodaci</a>
+            <a href="/#pasta-dishes" class="nav-link p-0">Pasta Dishes</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#pica" class="nav-link p-0">Pića</a>
+            <a href="/#tagliatele" class="nav-link p-0">Tagliatele</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#lasagne" class="nav-link p-0">Lasagne</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#tgnocchi" class="nav-link p-0">Tgnocchi</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#rice-dishes" class="nav-link p-0">Rice Dishes</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#dishes-a-la-carte" class="nav-link p-0">Dishes A La Carte</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#garnishings" class="nav-link p-0">Garnishings</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#fish-dishes" class="nav-link p-0">Fish Dishes</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#pizza" class="nav-link p-0">Pizza</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#pizza-garnishing" class="nav-link p-0">Pizza Garnishing</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#desserts" class="nav-link p-0">Desserts</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="/#drinks" class="nav-link p-0">Drinks</a>
           </li>
         </ul>
       </div>
