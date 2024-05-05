@@ -30,7 +30,7 @@
             <a href="/#lasagne" class="nav-link p-0">Lasagne</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#tgnocchi" class="nav-link p-0">Tgnocchi</a>
+            <a href="/#gnocchi" class="nav-link p-0">gnocchi</a>
           </li>
           <li class="nav-item mb-2">
             <a href="/#rice-dishes" class="nav-link p-0">Rice Dishes</a>
