@@ -303,6 +303,7 @@ footer{
 
 .karta-pica-items>table>tbody>tr>td:nth-child(3){
     text-wrap: nowrap!important;
+    text-align: right;
 }
 
 .karta-pica-items>table>tbody>tr>td:nth-child(2){

@@ -1,7 +1,7 @@
 <?php
 
 $title = "Pizzeria Kabalero - Privacy policy";
-$meta_description = "Privacy policy ketering firme pizzerija Favola";
+$meta_description = "Privacy policy of the restaurant Pizzeria Kabalero.";
 $meta_title = "Pizzeria Kabalero - Privacy policy";
 $og_title = "Pizzeria Kabalero - Privacy policy";
 $og_url = "https://www.pizzeria-kabalero.hr/politika-privatnosti";

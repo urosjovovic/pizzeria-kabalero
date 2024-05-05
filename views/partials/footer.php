@@ -52,9 +52,9 @@
           <li class="nav-item mb-2">
           <li>Company name: Kabalero d.o.o.</li>
           <li class="nav-item mb-2">
-          <li>PIB:_</li>
+          <li>OIB: 04925805892</li>
           <li class="nav-item mb-2">
-          <li>MB:_</li>
+          <li>MBS: 060088230</li>
           <li class="nav-item mb-2">
           <li>Company address: 14 Put Tihe, Cavtat</li>
         </ul>

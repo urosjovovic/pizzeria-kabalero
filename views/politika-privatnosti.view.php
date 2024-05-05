@@ -6,31 +6,73 @@ require 'views/partials/header.php';
 ?>
 <!-- Page content start -->
 <div class="container py-5">
-  <h1>Privacy policy</h1>
-  <h2>Uvod</h2>
-  <p>Dobrodošli na sajt www.pizzeria-kabalero.hr, koji je vlasništvo brenda Favola. Naš sajt pruža usluge fastfooda i keteringa i posvećeni smo zaštiti vaše privatnosti. Ova Privacy policy objašnjava kako prikupljamo, koristimo, delimo i čuvamo vaše lične podatke kada posetite ili napravite narudžbinu na našem sajtu.</p>
-  <h2>Prikupljanje podataka</h2>
-  <p>Kada posetite www.pizzeria-kabalero.hr, mi automatski prikupljamo određene informacije o vašem uređaju, uključujući informacije o vašem web pregledaču, IP adresi, vremenskoj zoni, i nekim od kolačića koji su instalirani na vašem uređaju. Takođe, kako pretražujete sajt, prikupljamo informacije o pojedinim web stranicama ili proizvodima koje pregledate, koje web stranice ili pretraživačke termine su vas uputili na sajt, i informacije o tome kako interagujete sa sajtom.</p>
-  <h2>Kolačići i slične tehnologije</h2>
-  <p>Na našem sajtu koristimo "kolačiće" i slične tehnologije da pomognemo u prikupljanju gore navedenih podataka. Koristimo sledeće tipove kolačića:</p>
-  <p>1. Osnovni kolačići: Neophodni za osnovno funkcionisanje sajta.</p>
-  <p>2. Analitički kolačići: Koristi Google Analytics, Meta Pixel i druge tehnologije za praćenje kako bismo razumeli kako koristite sajt.</p>
-  <h2>Kako koristimo vaše informacije</h2>
-  <p>Koristimo vaše informacije koje prikupljamo kako bismo:</p>
-  <p>Obradili vaše narudžbine preko eksternog portala za online porudžbine.</p>
-  <p>Poboljšali i optimizovali naš sajt (na primer, generisanjem analitike o tome kako naši korisnici pregledaju i interaguju sa sajtom, i procenom uspeha naših marketinških i reklamnih kampanja).</p>
-  <h2>Deljenje vaših ličnih podataka</h2>
-  <p>Vaše lične podatke delimo sa trećim stranama kako bismo vam omogućili gore navedene usluge. Na primer, delimo vaše podatke sa:</p>
-  <p>Eksternim servisima za online porudžbine koji obradjuju vaše narudžbine.</p>
-  <p>Google Analytics i Meta Pixel za analizu korištenja sajta.</p>
-  <h2>Vaša prava</h2>
-  <p>Ako ste rezident Evropske unije, imate pravo na pristup ličnim podacima koje držimo o vama i da tražite da vaši lični podaci budu ispravljeni, ažurirani ili izbrisani. Ako želite da iskoristite ovo pravo, molimo vas da nas kontaktirate.</p>
-  <h2>Sigurnost podataka</h2>
-  <p>Da bismo zaštitili vaše lične podatke, preduzimamo razumne predostrožnosti i pratimo najbolje prakse industrije kako bismo se osigurali da nisu neprimereno izgubljeni, zloupotrebljeni, dostupni, otkriveni, izmenjeni ili uništeni.</p>
-  <h2>Promene</h2>
-  <p>Možemo povremeno ažurirati ovu politiku privatnosti kako bismo odražavali, na primer, promene u našim praksama ili iz druge operativne, pravne ili regulatorne razloge.</p>
-  <h2>Kontaktirajte nas</h2>
-  <p>Za više informacija o našoj politici privatnosti, ako imate pitanja, ili ako želite da napravite prigovor, molimo vas da nas kontaktirate putem emaila na kontakt@pizzeria-kabalero.hr.</p>
+  <h1>Privacy Policy for Kabalero d.o.o.</h1>
+
+<p>At www.pizzeria-kabalero.hr, accessible from https://www.pizzeria-kabalero.hr, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by www.pizzeria-kabalero.hr and how we use it.</p>
+
+<p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. Our Privacy Policy was generated with the help of <a href="https://www.gdprprivacynotice.com/">GDPR Privacy Policy Generator</a></p>
+
+<h2>General Data Protection Regulation (GDPR)</h2>
+<p>We are a Data Controller of your information.</p>
+
+<p>Kabalero d.o.o. legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:</p>
+<ul>
+    <li>Kabalero d.o.o. needs to perform a contract with you</li>
+    <li>You have given Kabalero d.o.o. permission to do so</li>
+    <li>Processing your personal information is in Kabalero d.o.o. legitimate interests</li>
+    <li>Kabalero d.o.o. needs to comply with the law</li>
+</ul>
+  
+<p>Kabalero d.o.o. will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
+
+<p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.</p>
+<p>In certain circumstances, you have the following data protection rights:</p>
+<ul>
+    <li>The right to access, update or to delete the information we have on you.</li>
+    <li>The right of rectification.</li> 
+    <li>The right to object.</li>
+    <li>The right of restriction.</li>
+    <li>The right to data portability</li>
+    <li>The right to withdraw consent</li>
+</ul>
+
+<h2>Log Files</h2>
+
+<p>www.pizzeria-kabalero.hr follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
+
+<h2>Cookies and Web Beacons</h2>
+
+<p>Like any other website, www.pizzeria-kabalero.hr uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+
+
+
+<h2>Privacy Policies</h2>
+
+<P>You may consult this list to find the Privacy Policy for each of the advertising partners of www.pizzeria-kabalero.hr.</p>
+
+<p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on www.pizzeria-kabalero.hr, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+
+<p>Note that www.pizzeria-kabalero.hr has no access to or control over these cookies that are used by third-party advertisers.</p>
+
+<h2>Third Party Privacy Policies</h2>
+
+<p>www.pizzeria-kabalero.hr's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+
+<p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+
+<h2>Children's Information</h2>
+
+<p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+
+<p>www.pizzeria-kabalero.hr does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+
+<h2>Online Privacy Policy Only</h2>
+
+<p>Our Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in www.pizzeria-kabalero.hr. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+
+<h2>Consent</h2>
+
+<p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
 </div>
 <!-- Page content end -->
 
