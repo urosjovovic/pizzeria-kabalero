@@ -268,11 +268,15 @@ footer{
     color:  var(--secondary-color);
 }
 
+.mobile-bottom-bar .directions-icon {
+    color: #4285f4;
+}
+
 .mobile-bottom-bar a {
     text-decoration: unset;
 }
 
-.slatki-dodaci .slatki-dodaci-items {
+.karta-pica .karta-pica-items {
     max-width: 700px;
 }
 
@@ -313,6 +317,6 @@ footer h2 {
 
 }
 
-.footer-wrapper a:hover,a:focus,a:active {
+.footer-wrapper>a:hover .footer-wrapper>a:focus .footer-wrapper>a:active {
     color: #fff !important;
 }

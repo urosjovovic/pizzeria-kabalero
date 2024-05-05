@@ -3,7 +3,7 @@
   <footer class="container py-2">
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
-        <h2 class="h4">Meni</h2>
+        <h2 class="h4">Menu</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
             <a href="/#pice" class="nav-link p-0">Pice</a>
@@ -47,16 +47,16 @@
       </div>
       
       <div class="col-6 col-md-2 mb-3">
-        <h2 class="h4">Podaci</h2>
+        <h2 class="h4">Company info</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-          <li>Naziv firme:_</li>
+          <li>Company name: Kabalero d.o.o.</li>
           <li class="nav-item mb-2">
           <li>PIB:_</li>
           <li class="nav-item mb-2">
           <li>MB:_</li>
           <li class="nav-item mb-2">
-          <li>Adresa firme:_</li>
+          <li>Company address: 14 Put Tihe, Cavtat</li>
         </ul>
       </div>
 
@@ -64,14 +64,14 @@
         <div>
           <?= $footer_title_html_raw ?>
           <p>
-            <b>Neka svaki zalogaj bude bajka!</b>
+            <b>Nestled in the heart of the Mediterranean, our pizzeria has been a cherished part of the landscape since 1980.</b>
           </p>
-          <p>Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u bajkovitim zalogajima italijanske kuhinje. Pice, tortilje, piroške, palačinke, obroci pružiće Vam raznovrsnost ukusa, užitak i nezaboravno iskustvo.</p>
+          <p>With the same warmth and dedication passed down through generations, we invite you to join us in experiencing the essence of Mediterranean hospitality.</p>
           <p class="mb-0">
-            <small>Plaćanje karticom je moguće isključivo pri onlajn porudžbinama.</small>
+            <small>Our loyal guests, enchanted by the flavors of the sea and sun, return time and again to savor our offerings. Delight in our authentic pizzas, savory spaghetti, fragrant risottos, layered lasagnas, pillowy gnocchi, vibrant salads, soulful soups, enticing appetizers, and succulent meat and fish creations. Let us transport you to a place where every bite is a celebration of life's simple pleasures.</small>
           </p>
           <p class="mb-0">
-            <small>Telefonske porudžbine isključivo je moguće platiti u gotovini.</small>
+            <small>Pay with card or cash</small>
           </p>
         </div>
       </div>

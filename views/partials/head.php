@@ -31,14 +31,20 @@
     <link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" onload="this.rel='stylesheet'" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preload" as="style" type="text/css" href="main.v5.css" onload="this.rel='stylesheet'">
-    <link rel="icon" sizes="any" type="image/svg+xml" href="images/logo.svg">
-    <link rel="icon" type="image/ico" sizes="16x16" href="images/favicon-16x16.ico">
-    <link rel="icon" type="image/ico" sizes="32x32" href="images/favicon-32x32.ico">
-    <link rel="icon" type="image/ico" sizes="any" href="images/favicon-32x32.ico">
-    <link rel=”mask-icon” href=images/logo.svg” color="#000000">
-    <link rel="apple-touch-icon" href="images/logo.svg">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="/images/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#c82423">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#c82423">
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="manifest" href="manifest.json">
+
     <link rel="preload" as="style" href="assets/fontawesome-free-6-5-2-web/css/fontawesome.min.css" onload="this.rel='stylesheet'"/>
     <link href="assets/fontawesome-free-6-5-2-web/css/brands.min.css" rel="stylesheet" />
     <link rel="preload" as="style" href="assets/fontawesome-free-6-5-2-web/css/solid.min.css" onload="this.rel='stylesheet'"/>
@@ -55,3 +61,4 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
