@@ -5,7 +5,7 @@ require 'views/partials/header.php';
 ?>
 <!-- // Page content start -->
 <div class="container-fluid g-0 hero-image" id="cover">
-  <img srcset="images/cover/cover-w600.webp 600w,
+<img srcset="images/cover/cover-w600.webp 600w,
 images/cover/cover-w700.webp 700w,
 images/cover/cover-w800.webp 800w,
 images/cover/cover-w900.webp 900w,
@@ -19,9 +19,9 @@ images/cover/cover-w2000.webp 2000w,
 images/cover/cover-w2400.webp 2400w,
 images/cover/cover-w2800.webp 2800w,
 images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
-  <a href="/poruci-online">
+  <!-- <a href="/poruci-online">
     <button class="hero-image-button btn-lg">Poruči onlajn</button>
-  </a>
+  </a> -->
 </div>
 <div class="container meni">
   <!-- Pice -->

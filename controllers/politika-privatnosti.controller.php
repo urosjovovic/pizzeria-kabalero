@@ -7,7 +7,7 @@ $og_title = "Pizzeria Kabalero - Privacy policy";
 $og_url = "https://www.pizzeria-kabalero.hr/politika-privatnosti";
 $og_image = "https://www.pizzeria-kabalero.hr/images/cover-w1250.webp";
 $og_description = "Privacy policy - Pizzeria Kabalero";
-$og_image_alt = "Razna hrana";
+$og_image_alt = "Restaurant view";
 $preload_cover_image = "/images/cover.webp";
 $footer_title_html_raw = "<h2>Pizzeria Kabalero</h2>";
 
