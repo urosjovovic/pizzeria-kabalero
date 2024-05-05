@@ -19,9 +19,9 @@ images/cover/cover-w2000.webp 2000w,
 images/cover/cover-w2400.webp 2400w,
 images/cover/cover-w2800.webp 2800w,
 images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
-  <a href="/poruci-online">
+  <!-- <a href="/poruci-online">
     <button class="hero-image-button btn-lg">Poruči onlajn</button>
-  </a>
+  </a> -->
 </div>
 <div class="container meni">
   <!-- Pice -->

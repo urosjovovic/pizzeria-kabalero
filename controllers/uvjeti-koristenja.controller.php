@@ -1,7 +1,7 @@
 <?php
 
 $title = "Pizzeria Kabalero - Terms and conditions";
-$meta_description = "Terms and conditions ketering firme pizzerija Favola";
+$meta_description = "Terms and conditions of the restaurant Pizzeria Kabalero.";
 $meta_title = "Pizzeria Kabalero - Terms and conditions";
 $og_title = "Pizzeria Kabalero - Terms and conditions";
 $og_url = "https://www.pizzeria-kabalero.hr/uvjeti-koristenja";
