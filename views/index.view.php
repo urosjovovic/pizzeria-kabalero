@@ -503,39 +503,421 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
         </table>
       </div>
     </div>
-  </div>
-  <!-- My Maps test -->
   
-</div>
-  <div class="zone container-fluid p-0" id="zone">
-  <div class="my-3 text-center">
-    <h2 class="h1">Location</h2>
+   <!-- Pica-WHITE WINES-->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">WHITE WINES</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+          <tr>
+              <td>Graševina Glass</td>
+              <td>0,20 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Graševina</td>
+              <td>1,00 L</td>
+              <td>22,50 €</td>
+            </tr>
+            <tr>
+              <td>Graševina (Bottle)</td>
+              <td>0,187 L</td>
+              <td>6,00 €</td>
+            </tr>
+            <tr>
+              <td>Prošip</td>
+              <td>1,00 L</td>
+              <td>22,50 €</td>
+            </tr>
+            <tr>
+              <td>Maraština</td>
+              <td>1,00 L</td>
+              <td>18,00 €</td>
+            </tr>
+            <tr>
+              <td>Maraština</td>
+              <td>0,75 L</td>
+              <td>30,00 €</td>
+            </tr>
+            <tr>
+              <td>Žlahtin Zlat</td>
+              <td>0,75 L</td>
+              <td>38,00 €</td>
+            </tr>
+            <tr>
+              <td>Sivi Pinot</td>
+              <td>0,75 L</td>
+              <td>38,00 €</td>
+            </tr>
+            <tr>
+              <td>Chardonnay</td>
+              <td>0,75 L</td>
+              <td>38,00 €</td>
+            </tr>
+            <tr>
+              <td>Malvasija</td>
+              <td>0,75 L</td>
+              <td>38,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
   </div>
-  <div class="text-center mb-2 address">
-    <a href="https://maps.app.goo.gl/oBfNNK2wroz3GdESA" target="_blank">
-      <h3>
-        <i class="fa-solid fa-location-dot me-3" style="color: #f00;"></i>Address: 14 Put Tihe, Cavtat
-      </h3>
-    </a>
-    <a href="https://www.google.com/maps/dir//pizzeria+kabalero/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x134c0d28da64fed9:0xcfae2f1cb32c9c25?sa=X&ved=1t:3061&ictx=111" target="_blank">
-      <h3>
-        <i class="fa-solid fa-diamond-turn-right me-3" style="color: #4285f4;"></i>Get Directions
-      </h3>
-    </a>
   </div>
-  <div class="w-100 text-center text-muted mb-2 p-2">A few minutes drive from the airport!</div>
-  <!-- My Maps Test -->
-  <iframe
-  id="map-canvas"
-  frameborder="0" style="border:0"
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyBF6CUnKIF3KmZQSBcLLAT0hhKIN5hhPuc&origin=Cavtat+Croatia
-  &destination=place_id:ChIJ2f5k2igNTBMRJZwssxwvrs8&mode=walking&zoom=15&center=42.5817374,18.2222612"
-  allowfullscreen>
-</iframe>
-</div>
+  <!-- My-Red Wines -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">RED WINES</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+          <tr>
+              <td>Plavac Glass</td>
+              <td>0,20 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Plavac</td>
+              <td>1,00 L</td>
+              <td>22,50 €</td>
+            </tr>
+            <tr>
+              <td>Merlot</td>
+              <td>1,0 L</td>
+              <td>18,00 €</td>
+            </tr>
+            <tr>
+              <td>Merlot</td>
+              <td>0,75 L</td>
+              <td>30,00 €</td>
+            </tr>
+            <tr>
+              <td>Cabernet</td>
+              <td>0,75 L</td>
+              <td>30,00 €</td>
+            </tr>
+            <tr>
+              <td>Zlatan Plavac</td>
+              <td>0,75 L</td>
+              <td>45,00 €</td>
+            </tr>
+            <tr>
+              <td>Dingač</td>
+              <td>0,75 L</td>
+              <td>45,00 €</td>
+            </tr>
+            <tr>
+              <td>Postup</td>
+              <td>0,75 L</td>
+              <td>45,00 €</td>
+            </tr>
+            <tr>
+              <td>Pinot (Bottle)</td>
+              <td>0,187 L</td>
+              <td>6,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
 
-</div>
+
+  <!-- ROSE WINES -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">ROSE WINES</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+          <tr>
+              <td>Rose Glass</td>
+              <td>0,20 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Rose Kutjevo</td>
+              <td>0,75 L</td>
+              <td>38,00 €</td>
+            </tr>
+            <tr>
+              <td>Rose Kutjevo</td>
+              <td>0,187 L</td>
+              <td>6,00 €</td>
+            </tr>
+            <tr>
+              <td>Rose Terra Madre</td>
+              <td>0,75 L</td>
+              <td>38,00 €</td>
+            </tr>
+            <tr>
+              <td>Prosecco</td>
+              <td>0,70 L</td>
+              <td>38,00 €</td>
+            </tr>
+            <tr>
+              <td>Prosecco</td>
+              <td>0,187 L</td>
+              <td>11,00 €</td>
+            </tr>
+            <tr>
+              <td>Martini (Bianco, Rosso)</td>
+              <td>0,10 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Somersby (Cider)</td>
+              <td>0,33 L</td>
+              <td>6,00 €</td>
+            </tr>
+            <tr>
+              <td>Prošek</td>
+              <td>0,10 L</td>
+              <td>5,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+
+  <!-- Beer -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">Beer</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+            <tr>
+              <td>Draft Beer (Karlovačko)</td>
+              <td>0,50 L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Draft Beer</td>
+              <td>0,30 L</td>
+              <td>4,00 €</td>
+            </tr>
+            <tr>
+              <td>Nonalcoholic beer</td>
+              <td>0,50 L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Ožujsko Beer</td>
+              <td>0,33 L</td>
+              <td>4,00 €</td>
+            </tr>
+            <tr>
+              <td>Karlovačko</td>
+              <td>0,33 L</td>
+              <td>4,00 €</td>
+            </tr>
+            <tr>
+              <td>Staropramen</td>
+              <td>0,33 L</td>
+              <td>4,00 €</td>
+            </tr>
+            <tr>
+              <td>Leffe (Dark/Light)</td>
+              <td>0,33 L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Stella Artois</td>
+              <td>0,33 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Heineken</td>
+              <td>0,33 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Karlovačko (Dark)</td>
+              <td>0,50 L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Corona</td>
+              <td>0,33 L</td>
+              <td>6,00 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  <!-- Alcoholic Drinks -->
+  <div class="karta-pica col-12 col-md-6 justify-content-center">
+      <div class="my-3 text-center">
+        <h2 class="h1">Alcoholic Drinks</h2>
+      </div>
+      <div class="karta-pica-items">
+        <table class="table-striped table">
+          <tbody>
+          <tr>
+              <td>Grape Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Herb Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Plum Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Stock</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Maraschino</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Cherry Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Pear Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Apricot</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Carolans</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Baileys</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Amaro</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Istra Bitter</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Camapri</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Walnut Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Pelnikovac</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Vlahovac</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Jägermeister</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Brandy</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Vodka</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Vodka Smirnoff</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Gin</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Gin Gordon's</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Rum</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+            <tr>
+              <td>Tequila</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Jack Daniels</td>
+              <td>0,03 L</td>
+              <td>5,50 €</td>
+            </tr>
+            <tr>
+              <td>Ballantines</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Johnnie Walker</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Bacardi</td>
+              <td>0,03 L</td>
+              <td>5,00 €</td>
+            </tr>
+            <tr>
+              <td>Martell</td>
+              <td>0,03 L</td>
+              <td>7,00 €</td>
+            </tr>
+            <tr>
+              <td>Courvoisier</td>
+              <td>0,03 L</td>
+              <td>7,00 €</td>
+            </tr>
+            <tr>
+              <td>Limoncello</td>
+              <td>0,03 L</td>
+              <td>3,50 €</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
 <!-- Page content end --> <?php
 require 'views/partials/footer.php';
 ?>
