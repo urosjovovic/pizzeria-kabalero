@@ -115,7 +115,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   <!-- GNOCCHI -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="gnocchi">
     <div class="my-3">
-      <h2 class="h1">gnoCCHI</h2>
+      <h2 class="h1">GNOCCHI</h2>
     </div> <?php 
     echo productCardPrintCol6ColMd3("gnocchi-salmon-gnocchi", $image_path_array, "Salmon Gnocchi", "Vegetarian", "13,00 €", "");
     echo productCardPrintCol6ColMd3("gnocchi-gnocchi-of-your-choosing", $image_path_array, "Gnocchi of Your Choosing", "", "13,00 €", "chicken, four kinds of cheese, bolognese");
