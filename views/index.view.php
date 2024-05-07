@@ -355,77 +355,77 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
             <tr>
               <td>Coca Coka</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Cockta</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Tonic Water</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Bitter Lemon</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Fanta</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Tangerina</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Sprite</td>
               <td>0,25 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Orange Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Peach Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Apple Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Blueberry Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Strawberry Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Pear Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Pineapple Juice</td>
               <td>0,20 L</td>
-              <td>3,50 €</td>
+              <td>4,00 €</td>
             </tr>
             <tr>
               <td>Natural Lemonade</td>
-              <td></td>
-              <td></td>
+              <td>0,20 L</td>
+              <td>5,50 €</td>
             </tr>
             <tr>
               <td>Orange Juice</td>
