@@ -91,7 +91,7 @@
       </div>
 
       <div class="col-12 col-md-5 mb-3">
-        <div>
+
           <?= $footer_title_html_raw ?>
           <p>
             <b>Nestled in the heart of the Mediterranean, our pizzeria has been a cherished part of the landscape since 1980.</b>
@@ -103,7 +103,7 @@
           <p class="mb-0">
             <small>Pay with card or cash</small>
           </p>
-        </div>
+
       </div>
     </div>
     <div class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
