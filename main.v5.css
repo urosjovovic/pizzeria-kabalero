@@ -374,3 +374,75 @@ footer h2 {
     background-repeat: no-repeat;
     filter: grayscale(70%);
 }
+
+#pizza {
+    background-image: url(/images/backgrounds/pizza.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#rice-dishes {
+    background-image: url(/images/backgrounds/rice-dishes.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#salads{
+    background-image: url(/images/backgrounds/salads.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#lasagne{
+    background-image: url(/images/backgrounds/lasagne.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#dishes-a-la-carte{
+    background-image: url(/images/backgrounds/dishes-a-la-carte.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+
+#pasta-dishes{
+    background-image: url(/images/backgrounds/pasta.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#hot-side-dishes{
+    background-image: url(/images/backgrounds/hot-side-dishes.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#fish-dishes{
+    background-image: url(/images/backgrounds/fish.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#garnishings{
+    background-image: url(/images/backgrounds/garnishings.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+#tagliatele{
+    background-image: url(/images/backgrounds/tagliatele.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
