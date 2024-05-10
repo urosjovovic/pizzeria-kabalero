@@ -13,7 +13,7 @@ require 'views/partials/header.php';
 
 <p>Please read the Terms and Conditions carefully before you start using <span class="website_name">Pizzeria Kabalero</span>, because by using the Website you accept and agree to be bound and abide by these Terms and Conditions.</p>
 
-<p>These Terms and Conditions are effective as of <span class="date">[DATE]</span>. We expressly reserve the right to change these Terms and Conditions from time to time without notice to you. You acknowledge and agree that it is your responsibility to review this Website and these Terms and Conditions from time to time and to familiarize yourself with any modifications. Your continued use of this Website after such modifications will constitute acknowledgement of the modified Terms and Conditions and agreement to abide and be bound by the modified Terms and Conditions.</p>
+<p>These Terms and Conditions are effective as of <span class="date">5.5.2024</span>. We expressly reserve the right to change these Terms and Conditions from time to time without notice to you. You acknowledge and agree that it is your responsibility to review this Website and these Terms and Conditions from time to time and to familiarize yourself with any modifications. Your continued use of this Website after such modifications will constitute acknowledgement of the modified Terms and Conditions and agreement to abide and be bound by the modified Terms and Conditions.</p>
 
 <h3>Conduct on Website</h3>
 
