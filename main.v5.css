@@ -354,3 +354,23 @@ footer h2 {
 .footer-wrapper>a:hover .footer-wrapper>a:focus .footer-wrapper>a:active {
     color: #fff !important;
 }
+
+.meni h2{
+    text-shadow: 4px 2px 4px white;
+}
+
+#cold-appertizers {
+    background-image: url(/images/backgrounds/cold-appetizers-background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
+
+#salads {
+    background-image: url(/images/backgrounds/cold-appetizers-background.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+}
