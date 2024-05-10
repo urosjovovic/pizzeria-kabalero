@@ -75,8 +75,6 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     echo productCardPrintCol6ColMd3("dishes-a-la-carte-sausages", $image_path_array, "Sausages", "", "13,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
     echo productCardPrintCol6ColMd3("dishes-a-la-carte-hamburger", $image_path_array, "Hamburger", "", "7,00 €", "ajvar, mayonnaise, lettuce, tomatoes *Side dishes are included in the price (fries or grilled vegetables)");
     echo productCardPrintCol6ColMd3("dishes-a-la-carte-cheeseburger", $image_path_array, "Cheeseburger", "", "7,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
-    echo productCardPrintCol6ColMd3("dishes-a-la-carte-vege-burger", $image_path_array, "Vege Burger", "Vegan, Vegetarian", "9,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
-    echo productCardPrintCol6ColMd3("dishes-a-la-carte-vege-burger", $image_path_array, "Vege Burger", "Vegan, Vegetarian", "9,00 €", "*Side dishes are included in the price (fries or grilled vegetables)");
     ?>
   </div>
   <!-- PASTA DISHES -->
