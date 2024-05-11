@@ -383,8 +383,8 @@ footer h2 {
     background-color: unset;
 }
 
-#pizza {
-    background-image: url(/images/backgrounds/pizza.png);
+#pizza{
+    background-image: url(/images/backgrounds/pizzar.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -405,7 +405,7 @@ footer h2 {
     
 }
 #lasagne{
-    background-image: url(/images/backgrounds/lasagner.png);
+    background-image: url(/images/backgrounds/lasagner2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
