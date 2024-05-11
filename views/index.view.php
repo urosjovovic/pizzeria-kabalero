@@ -26,7 +26,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="cold-appertizers">
     <div class="my-3">
       <h2 class="h1">COLD APPETIZERS</h2>
-    </div> <?php echo productCardPrintCol6ColMd3("cold-appetizers-dalmatian-smoked-ham", $image_path_array, "Dalmatian Smoked Ham", "", "15,00 €", "");
+    </div>
+    <?php echo productCardPrintCol6ColMd3("cold-appetizers-dalmatian-smoked-ham", $image_path_array, "Dalmatian Smoked Ham", "", "15,00 €", "");
     echo productCardPrintCol6ColMd3("cold-appetizers-cheese-in-olive", $image_path_array, "Cheese in Olive", "Vegetarian", "13,00 €", "");
     echo productCardPrintCol6ColMd3("cold-appetizers-cold-platter-kabalero", $image_path_array, "Cold Platter Kabalero", "", "14,00 €", "ham, cheese, anchovies, olives");
     echo productCardPrintCol6ColMd3("cold-appetizers-anchovies-carpaccio", $image_path_array, "Anchovies Carpaccio", "", "13,00 €", "");
