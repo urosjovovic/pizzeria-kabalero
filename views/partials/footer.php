@@ -12,9 +12,6 @@
             <a href="/#salads" class="nav-link p-0">Salads</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#piroske-i-obroci" class="nav-link p-0">Piroške i obroci</a>
-          </li>
-          <li class="nav-item mb-2">
             <a href="/#soups" class="nav-link p-0">Soups</a>
           </li>
           <li class="nav-item mb-2">
