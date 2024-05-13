@@ -49,7 +49,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="assets/fontawesome-free-6-5-2-web/css/brands.min.css" rel="stylesheet" />
     <link rel="preload" as="style" href="assets/fontawesome-free-6-5-2-web/css/solid.min.css" onload="this.rel='stylesheet'"/>
     <!-- OVO IZBRISATI KADA KRENE LIVE -->
-    <!-- <meta name="robots" content="noindex"> -->
     <link rel="preconnect" href="https://consent.cookiebot.com/">
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://consent.cookiebot.com/" />
